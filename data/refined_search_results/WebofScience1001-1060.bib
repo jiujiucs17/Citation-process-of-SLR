@@ -1,0 +1,2147 @@
+﻿
+@inproceedings{ WOS:000084418300147,
+Author = {Patterson, MR},
+Book-Group-Author = {MTS
+   MTS},
+Title = {A finite state machine approach to layered command and control of
+   autonomous underwater vehicles implemented in G, a graphical programming
+   language.},
+Booktitle = {OCEAN COMMUNITY CONFERENCE'98: CELEBRATING 1998 INTERNATIONAL YEAR OF
+   THE OCEAN, PROCEEDINGS VOLS 1 AND 2},
+Year = {1998},
+Pages = {745-751},
+Note = {Marine-Technology-Society Annual Conference, BALTIMORE, MD, NOV 16-19,
+   1998},
+Organization = {Marine Technol Soc},
+Abstract = {Fetch!(R), a small, modular, commercial Autonomous Underwater Vehicle
+   (AUV), optimized for continental shelf work, uses control software
+   written in LabVIEW(R), a graphical programming environment developed by
+   National Instruments. Fetch! Virtual instruments (VIs) for vehicle
+   command and control use a Finite State Machine (FSM) realized in G, a
+   graphical programming language. A large library of LabVIEW subVIs,. the
+   AUV ToolKit(TM), has been developed to handle lower level tasks. The FSM
+   approach, using layered control within a state, provides a high degree
+   of reliability for AUV command and control, provided vehicle error and
+   operational states are correctly defined. Definition of these machine
+   states at the highest level is an operational, not. a computational,
+   problem. State definition benefits greatly from expert knowledge gained
+   by deployment and recovery of at-sea devices, including those that are
+   not necessarily AUVs. FSM definitions for C(onductivity) T(emperature)
+   D(epth) profiling, and Large Area Survey(TM) algorithms useful for
+   collecting bathymetric, side scan sonar, and video data are presented.
+   FSMs are easily implemented in G using a Case structure wired to a
+   counter. The counter uses enumerated constants and is kept within a
+   shift register in a While Loop. Any machine state can jump to any other
+   state by manipulating the counter. Layered control within a machine
+   state is straightforward to implement given G's inherent parallelism and
+   dataflow control of software execution. Parallel While Loops running at
+   independent rates permit polled operation for the evaluative processes
+   that ensure AUV sensor and data integrity, safe vehicle motion
+   trajectories, and correct navigation of the vehicle. Client-server
+   systems can be implemented using G global variables. These global
+   variables act like a database,permitting transmission of vehicle status
+   datagrams to parallel processes, including subVIs mat may act
+   autonomously, or to processes running on other AUVs that are within RF
+   or acoustic packet modem range. Within a state, sequence structures
+   allow conventional flow control of AUV tasks when dataflow control is
+   inappropriate or would be cumbersome to implement. Implementation of the
+   above parallel tasks in a low level language like C necessitates use of
+   a language compiler and/or operating system that handles multithreaded
+   execution, and requires a high amount of skill and development time. Use
+   of the LabVIEW environment permitted rapid prototyping of AUV behaviors
+   in a small fraction of the time compared to a more conventional
+   approach, yet the resulting code meets the state of the art for robotic
+   command and control. Given the inherently parallel nature of tasks that
+   must be executed by an AUV, G is a very cost effective language for AUV
+   software development of networked vehicles.},
+ISBN = {0-933957-21-1},
+ORCID-Numbers = {Patterson, Mark/0000-0002-1949-7139},
+Unique-ID = {WOS:000084418300147},
+}
+
+@inproceedings{ WOS:000084418300174,
+Author = {Patterson, MR and Sias, JH},
+Book-Group-Author = {MTS
+   MTS},
+Title = {Fetch!(R) commercial Autonomous Underwater Vehicle: A modular,
+   platform-independent architecture using desktop personal computer
+   technology},
+Booktitle = {OCEAN COMMUNITY CONFERENCE'98: CELEBRATING 1998 INTERNATIONAL YEAR OF
+   THE OCEAN, PROCEEDINGS VOLS 1 AND 2},
+Year = {1998},
+Pages = {891-897},
+Note = {Marine-Technology-Society Annual Conference, BALTIMORE, MD, NOV 16-19,
+   1998},
+Organization = {Marine Technol Soc},
+Abstract = {We describe the system architecture of Fetch!(R), a small (< 2 m, < 80
+   kg) commercial modular Autonomous Underwater Vehicle (AW) organized
+   around a desktop personal computer(PC), that uses off-the-shelf
+   components for subsystems, and is optimized for work from the littoral
+   zone to the edge of the continental shelf. Unique hardware attributes of
+   Fetch! include a strobe/antennae tower integrated into the hull that
+   enhances GPS signal acquisition and packet modem communication when
+   surfaced, an unusual placement of control surfaces (forward dive planes
+   and aft rudders) that enhances maneuverability, and a floating
+   launch/recovery cage. Fetch! employs a two component pressure hull
+   design. AUV sensor payloads are accommodated in a forward nosecone
+   and/or in a `stretch limo' hull section that can be added between the
+   main hull halves. The graphical language, G, a component of National
+   Instruments' LabVIEW environment, is used to create platform independent
+   software libraries of AW command and control algorithms which are then
+   used to create robotic Virtual Instruments (VIs). C(onductivity)
+   T(emperature) D(epth), video, and side scan sonar survey VIs for AUVs
+   have been implemented successfully in the field under a variety of
+   operational conditions. The front panel interface of a VI allows naive
+   users to program an AUV for a given behavioral algorithm without coding
+   in a low level language like C++. When surfaced, Fetch! becomes a node
+   on an RF LAN allowing control of the vehicle from a nearby vessel or
+   even the Internet using a Web browser interface. Given the rapid
+   increase in computational power in desktop PCs, and availability of
+   navigational, data acquisition, and motion control subsystems with
+   embedded CPUs, system integration around PCs will become the rational
+   design norm for many types of AUVs. This new approach ensures that time
+   to market and engineering costs are greatly reduced, while vehicle
+   obsolescence is avoided, because the system architecture permits
+   continuous upgrades to the hardware and software. Platform independent
+   software for vehicle command and control permits extensive code reuse
+   and lends further flexibility in manufacturing commercial vehicles for a
+   variety of end-users.},
+ISBN = {0-933957-21-1},
+Unique-ID = {WOS:000084418300174},
+}
+
+@inproceedings{ WOS:000085482900008,
+Author = {Rantakokko, J},
+Editor = {Caromel, D and Oldehoeft, RR and Tholburn, M},
+Title = {Software tools for partitioning block-structured applications},
+Booktitle = {COMPUTING IN OBJECT-ORIENTED PARALLEL ENVIRONMENTS},
+Series = {LECTURE NOTES IN COMPUTER SCIENCE},
+Year = {1998},
+Volume = {1505},
+Pages = {83-94},
+Note = {2nd International Symposium on Computing in Object-Oriented Parallel
+   Environments, SANTA FE, NEW MEXICO, DEC 08-11, 1998},
+Abstract = {A flexible software package for data partitioning has been developed.
+   The package considers irregularly weighted structured grids and
+   irregularly coupled structured multiblock grids. But, also unstructured
+   partitioning can be addressed with the software tools. The software
+   gives support for construction of different partitioning algorithms by
+   composition of low-level operations. Automatic partitioning methods are
+   also included. The implementation is in Fortran 90 with an
+   object-oriented design. The use of the package has been demonstrated by
+   partitioning a grid for an oceanographic model and a multiblock grid
+   modeling an expanding and contracting tube for airflow computations.},
+ISSN = {0302-9743},
+ISBN = {3-540-65387-2},
+Unique-ID = {WOS:000085482900008},
+}
+
+@inproceedings{ WOS:000077522100009,
+Author = {Saksena, M and Ptak, A and Freedman, P and Rodziewicz, P},
+Book-Group-Author = {IEEE
+   IEEE},
+Title = {Schedulability analysis for automated implementations of real-time
+   object-oriented models},
+Booktitle = {19TH IEEE REAL-TIME SYSTEMS SYMPOSIUM, PROCEEDINGS},
+Series = {REAL-TIME SYSTEMS SYMPOSIUM - PROCEEDINGS},
+Year = {1998},
+Pages = {92-102},
+Note = {19th IEEE Real-Time Systems Symposium (RTSS98), MADRID, SPAIN, DEC
+   02-04, 1998},
+Organization = {IEEE Comp Soc Tech Comm Real-Time Syst; Tech Univ Madrid},
+Abstract = {The increasing complexity of real-time software has led to a recent
+   trend in the use of high-level modeling languages for development of
+   real-time software. One representative example is the modeling language
+   ROOM (real-time object-oriented modeling), which provides features such
+   as object-orientation, state machine description of behaviors, formal
+   semantics for executability of models, and possibility of automated code
+   generation. However these modeling languages largely ignore the
+   timeliness aspect of real-time systems, and fail to provide any guidance
+   for a designer to a priori predict and analyze temporal behavior
+   In this paper we consider schedulability analysis for automated
+   implementations of ROOM models, based on the ObjecTime toolset. This
+   work builds on results presented in {[}8], where we developed some
+   guidelines for the design and implementation of real-time
+   object-oriented models. Using the guidelines, we have modified the
+   run-time system library provided by the ObjecTime toolset to make it
+   amenable to schedulability analysis. Based on the modified toolset, we
+   show how a ROOM model can be analyzed for schedulability, taking into
+   account the implementation overheads and structure. The analysis is
+   validated experimentally first using simple periodic models, and then
+   using a large case study of a train tilting system.},
+DOI = {10.1109/REAL.1998.739734},
+ISSN = {1052-8725},
+ISBN = {0-8186-9212-X},
+Unique-ID = {WOS:000077522100009},
+}
+
+@inproceedings{ WOS:000079195700020,
+Author = {Smith, G and Gough, J and Szyperski, C},
+Editor = {Mingins, C and Meyer, B},
+Title = {A case for meta-interworking: Projecting CORBA meta-data into COM},
+Booktitle = {TOOLS 28: TECHNOLOGY OF OBJECT-ORIENTED LANGUAGES, PROCEEDINGS},
+Series = {TOOLS},
+Year = {1998},
+Volume = {28},
+Pages = {242-253},
+Note = {Conference on Technology of Object-Oriented Languages (TOOLS 28),
+   MELBOURNE, AUSTRALIA, NOV 23-26, 1998},
+Organization = {Interact Software Engn Inc, US},
+Abstract = {The pressure to reduce the time and effort required to produce and
+   update software components, together with the existence of multiple
+   competing component worlds has forced the introduction of interworking
+   standards. Unfortunately the interworking standards fail to suitably
+   address the need for access to meta information. In the light of
+   meta-data being increasingly important for component environments this
+   inaccessibility of meta-data can lead to components being unusable by
+   their intended clients. What exasperates the situation is that if access
+   to meta-data repositories is provided using an implementation of the
+   interworking standard, the information retrieved is incorrect. This
+   paper describes these difficulties. To exemplify the solution, the
+   construction of an adapter is described. This adapter provides access to
+   the Common Object Request Broker Architectures' (CORBA) Interface
+   Repository via the interfaces of the Component Object Model's (COM) Type
+   Library. This solution provides access to meta-data which is essential
+   if the full benefit of interworking is to be realised.},
+DOI = {10.1109/TOOLS.1998.750039},
+ISSN = {1530-2067},
+ISBN = {0-7695-0053-6},
+ORCID-Numbers = {Szyperski, Clemens/0000-0002-9179-0241},
+Unique-ID = {WOS:000079195700020},
+}
+
+@inproceedings{ WOS:000074690000068,
+Author = {Van Fleet, RJ},
+Book-Group-Author = {APPITA},
+Title = {Advanced sensors and control for the pulping and bleaching process},
+Booktitle = {52ND APPITA ANNUAL GENERAL CONFERENCE, 1998 PROCEEDINGS, VOLS 1 AND 2},
+Year = {1998},
+Pages = {453-459},
+Note = {52nd Appita Annual General Conference, BRISBANE, AUSTRALIA, MAY 11-14,
+   1998},
+Organization = {Appita},
+Abstract = {The fibre line for a typical modern Pulp and Paper mill encompass the
+   Pulping, Washing, Bleaching and Recovery process's and is a significant
+   component of the cost of each tonne of paper produced. Historically,
+   each mill tended to develop their own measurement and control strategies
+   aimed at the specific requirements of the plant. Many mills actually
+   went so far as to develop their own sensor technologies when the
+   required devices were not commercially available. Ln addition, each
+   pulping process has its own unique requirements depending on location,
+   fibre supply, market, cost structure, energy source and environmental
+   constraints. This in turn made it very difficult for any supplier to
+   provide a ``packaged{''} control solution for any particular mill and
+   drove most Pulp Mills to develop their own in-house control solutions.
+   The complex nature and sheer number of measurements required to properly
+   control any single component of the fibre line combined with the
+   complexity of the process itself required very significant investments
+   in time and materials to develop a workable control solution. Once the
+   solution was in place the problems of maintaining the knowledge base of
+   those who were to maintain and develop the system and the problem of
+   porting the application to more modern platforms when required had to be
+   addressed. Most older applications were written in complex codes on
+   proprietary hardware and with inflexible control software making
+   modification, upgrades or enhancements very difficult.
+   Recently, the Honeywell Measurer Corporation has released a series of
+   analytical sensors based on the concept of scanning voltammetry, a
+   proven electro-chemical principle, and distributed optics to measure a
+   range of complex measurements in the pulping process including:
+   Liquor Strength
+   Brightness
+   Kappa
+   CEK
+   Residuals
+   These intelligent sensors are coupled with proven control applications
+   that run on commercial PC hardware and run under standard Windows
+   NT(TM), operating systems. A packaged product now exists for each area
+   of the pulping plant. Due to the simple and graphical nature of modern
+   control building software these applications can be easily customised to
+   suit the particular requirements of each plant. The commercial nature of
+   the software and hardware means that a broad knowledge base is always
+   available and the applications can be easily modified and updated as
+   required. This paper will present information on the analytical sensors,
+   the packaged control solutions and provide case studies of how and where
+   these products have provided actual results for pulp manufacturers.},
+ISBN = {0-9585548-0-3},
+Unique-ID = {WOS:000074690000068},
+}
+
+@inproceedings{ WOS:000076439900125,
+Author = {Worley, J and Jordan, R},
+Book-Group-Author = {IEEE
+   IEEE},
+Title = {A scalable Khoros neural network toolbox},
+Booktitle = {ITS `98 PROCEEDINGS - SBT/IEEE INTERNATIONAL TELECOMMUNICATIONS
+   SYMPOSIUM, VOLS 1 AND 2},
+Year = {1998},
+Pages = {667-670},
+Note = {SBT/IEEE Telecommunications Symposium (ITS 98), SAO PAULO, BRAZIL, AUG
+   09-13, 1998},
+Organization = {Soc Brasileira Telecommun; IEEE, Commun Soc; POLI USP; Unicamp; IEEE;
+   Autel Telecom; CNPq; Ericsson; Furukawa; GMK; Informat; IIATEC;
+   Motorola; NEC, Nec Brasil; PROMON; SIEMENS; Telecommun Brasileiras SA;
+   Texas Instruments; ZETAX},
+Abstract = {Three problems limit neural network simulation environments. First, the
+   computational complexity of neural network simulation imposes a
+   practical constraint on the size of simulated neural networks. Second.
+   neural network simulation environments are usually designed to
+   accommodate a confined set of neural network models. Third, most neural
+   network simulation environments do not facilitate interoperability with
+   external systems. This project addresses these issues by implementing a
+   simulation environment that scales to support larger neural systems,
+   facilitates the implementation of new network architectures, and
+   interoperates with other software. This problem was approached by
+   examining a representative set of neural network architectures that
+   feature a diversity of characteristics such as topology and learning
+   rules. The result of this research is applied to the design and
+   implementation of an environment consisting of tools and applications to
+   support neural network simulation. This environment, developed under the
+   Khoros system, provides a visual neural network construction tool, an
+   extensible C++ class library that encapsulates network management and
+   object interaction, a file format for storage and retrieval of neural
+   networks, and finally, neural network visualization tools.},
+ISBN = {0-7803-5030-8},
+Unique-ID = {WOS:000076439900125},
+}
+
+@article{ WOS:000073206000005,
+Author = {Davis, GB and Gorgone, JT and Couger, JD and Feinstein, DL and
+   Longenecker, HE},
+Title = {IS `97 Model Curriculum and Guidelines for Undergraduate Degree Programs
+   in Information Systems},
+Journal = {DATA BASE FOR ADVANCES IN INFORMATION SYSTEMS},
+Year = {1997},
+Volume = {28},
+Number = {1},
+Pages = {VII+},
+Month = {WIN},
+Abstract = {IS'97 is a model curriculum for undergraduate degree programs in
+   Information Systems. Information Systems, as an academic field,
+   encompasses two broad areas: (1) acquisition, deployment, and management
+   of information technology resources and services (the information
+   systems function) and (2) development and evolution of technology
+   infrastructures and systems for use in organization processes (system
+   development). The model curriculum provides guidelines, a set of
+   courses, source materials, curriculum design objectives, and knowledge
+   elements. It provides advice to a number of intended users of the report
+   who have a stake in the achievement of quality IS degree programs.
+   The model curriculum is based on common structures and degree programs
+   in the United States and Canada. Assumptions about student backgrounds
+   and degree programs may not be applicable in other countries. However,
+   the model is grounded in a fundamental body of computing and information
+   systems knowledge. It can, therefore, be employed as a reference model
+   for international use.
+   The curriculum assumes that students have prerequisite skills in
+   software packages commonly used in organizational work or that these
+   skills will be provided by remedial modules. The information systems
+   coursework available to students can be organized programmatically in
+   three levels:
+   1. General courses in information systems. This level includes a survey
+   course on fundamentals of information systems and a course on personal
+   productivity with information technology suitable for all students
+   regardless of their majors or miners. An information systems theory and
+   practice course is provided for students who intend to major or minor in
+   information systems as well as students who wish to increase their depth
+   of general knowledge in information systems.
+   2. Specialized information technology and application design courses for
+   both majors and miners in information systems. These courses cover
+   information technology, structures for information systems applications,
+   and the analysis and logical design of applications.
+   3. Specialized application development, deployment, and project
+   management courses for majors in information systems. These courses
+   cover physical design and implementation of applications in both
+   database and programming environments plus management of information
+   systems projects.
+   The IS curriculum is designed to produce graduates equipped to function
+   in entry level information systems positions with a basis for continued
+   career growth. The curriculum reflects input from both industry and
+   universities. It responds to industry requests for both increased
+   emphasis in technical orientation and improved skill in individual and
+   group interactions. The exit characteristics of information systems
+   graduates are defined in the report. The characteristics are elaborated
+   by lists of abilities required to achieve them and knowledge that is
+   applied. The curriculum has formal information systems courses but also
+   assumes use of prerequisite or corequisite courses in communications,
+   mathematics and statistics, and business functions. The communications
+   prerequisite courses should provide students with listening skills and
+   the knowledge to be effective in written and oral communication. The
+   mathematics and statistics prerequisites should provide basic
+   quantitative and qualitative techniques. The business courses should
+   cover common business functions, economics, and international
+   considerations.
+   The architecture of the information systems curriculum at the highest
+   level consists of five curriculum presentation areas: IS fundamentals;
+   information systems theory and practice; information technology;
+   information systems development; and information systems deployment and
+   management processes. The five presentation areas consist often courses.
+   The courses are based on 127 learning units. The learning units are
+   derived from elements in a body of information systems knowledge.
+   {[}GRAPHICS]
+   The curriculum gives course descriptions and resource recommendations
+   for the IS degree program. The details in the appendices provide the
+   basis for customizing courses while maintaining the coverage defined by
+   the curriculum. The learning units and detailed IS body of knowledge
+   provide the basis for examining the logic associated with the design and
+   content of each course. They also provide the means for ongoing
+   adaptation and updating of the curriculum.},
+ISSN = {0095-0033},
+Unique-ID = {WOS:000073206000005},
+}
+
+@article{ WOS:000071869700008,
+Author = {Gobbi, A and Poppinger, D and Rohde, B},
+Title = {Developing an in-house system to support combinatorial chemistry},
+Journal = {PERSPECTIVES IN DRUG DISCOVERY AND DESIGN},
+Year = {1997},
+Volume = {7-8},
+Pages = {131-158},
+Month = {DEC},
+Note = {4th International Chemical Structures Conference, NOORDWIJKERHOUT,
+   NETHERLANDS, JUN 02-06, 1996},
+Abstract = {To support the special data handling and design problems that arise in
+   combinatorial chemistry, extensions to the classical chemical
+   information and molecular design systems are required. In this article,
+   we describe the principles and the construction of a proprietary
+   software system to support combinatorial chemistry, which was developed
+   at Ciba-Geigy and is now used at Novartis. The system allows to register
+   combinatorial libraries and their building blocks, as well as associated
+   administrative information, assay results, and computed data. Structure
+   similarity techniques are used to search through and to compare
+   combinatorial libraries. The system can also be used to design libraries
+   manually or by computational selection of structurally diverse sets of
+   building blocks.},
+ISSN = {0928-2866},
+Unique-ID = {WOS:000071869700008},
+}
+
+@article{ WOS:A1997XF06900005,
+Author = {Conway, DG and Ragsdale, CT},
+Title = {Modeling optimization problems in the unstructured world of spreadsheets},
+Journal = {OMEGA-INTERNATIONAL JOURNAL OF MANAGEMENT SCIENCE},
+Year = {1997},
+Volume = {25},
+Number = {3},
+Pages = {313-322},
+Month = {JUN},
+Abstract = {Electronic spreadsheets are the most common software tool managers use
+   to analyze data and model quantitative problems. Increasingly, these
+   software packages are being used in introductory OR/MS courses to
+   introduce students to a variety of quantitative modeling tools, Because
+   spreadsheets are inherently free-form, they impose no particular
+   guidelines or structure on the way problems may be modeled, Thus,
+   academics and practitioners accustomed to solving problems using very
+   structured, dedicated OR/MS software packages are facing the challenge
+   of dealing with these problems in the unstructured spreadsheet
+   environment where there is often a variety of ways to implement and
+   solve the same problem, This challenge is particularly acute in the case
+   of optimization problems, Some are responding to this challenge by
+   devising rules for implementing models that impose an artificial
+   structure on spreadsheets, sometimes resembling the operation of
+   dedicated OR/MS optimization packages, This paper offers a critique of
+   this approach and provides some guidelines we believe to be more helpful
+   in creating effective spreadsheet models for optimization problems. (C)
+   1997 Elsevier Science Ltd.},
+DOI = {10.1016/S0305-0483(97)00004-2},
+ISSN = {0305-0483},
+Unique-ID = {WOS:A1997XF06900005},
+}
+
+@article{ WOS:A1997XB87500009,
+Author = {Gragg, CE},
+Title = {Computerized chemical structural information (CSI) and associated data:
+   A study of computerized CSI pathways used by synthesis chemists, and
+   recommendations for guidelines},
+Journal = {JOURNAL OF TESTING AND EVALUATION},
+Year = {1997},
+Volume = {25},
+Number = {3},
+Pages = {337-340},
+Month = {MAY},
+Abstract = {Synthetic chemists are confronted with an array of computerized chemical
+   structure drawing packages, chemical database packages, and chemical
+   spreadsheets for organizing data. Software that is task-oriented has
+   become available. Integration of two or more tasks in one software
+   package is possible. For example, it is possible to draw a chemical
+   structure suitable for inclusion in a printed document, and also use the
+   same structure as an on-line search query. Pathways that are followed by
+   synthetic chemists include the
+   decision to make a chemical,
+   submission of queries to chemical databases,
+   selection of preparative methods,
+   procurement of the starting materials,
+   preparation of the sample itself,
+   disposal of waste products,
+   collection of data to support chemical structure assignment,
+   registration of information about chemical samples into personal and
+   shared databases,
+   submission of samples of the chemical for appropriate testing,
+   preparation of reports,
+   submission of manuscripts to journals, and
+   publication of chemical structural information and data associated with
+   it in the primary literature.
+   These pathways will be discussed, with examples of software that may be
+   suitable for each task. Guidelines will be recommended.},
+ISSN = {0090-3973},
+Unique-ID = {WOS:A1997XB87500009},
+}
+
+@article{ WOS:A1997XC02500002,
+Author = {Liu, L and Pu, C},
+Title = {An adaptive object-oriented approach to integration and access of
+   heterogeneous information sources},
+Journal = {DISTRIBUTED AND PARALLEL DATABASES},
+Year = {1997},
+Volume = {5},
+Number = {2},
+Pages = {167-205},
+Month = {APR},
+Abstract = {A large-scale interoperable database system operating in a dynamic
+   environment should provide Uniform access to heterogeneous information
+   sources, Scalability to the growing number of information sources,
+   Evolution and Composability of software and information sources, and
+   Autonomy of participants, both information consumers and information
+   producers. We refer to these set of properties as the USECA properties
+   {[}29]. To address the research issues presented by such systems in a
+   systematic manner, we introduce the Distributed Interoperable Object
+   Model (DIOM). DIOM promotes an adaptive approach to interoperation via
+   intelligent mediation {[}46, 47], aimed at enhancing the robustness and
+   scalability of the services provided for integrating and accessing
+   heterogeneous information sources. DIOM's main features include (1) the
+   recursive construction and organization of information access through a
+   network of application-specific mediators, (2) the explicit use of
+   interface composition meta operations (such as specialization,
+   generalization, aggregation, import and hide) to support the incremental
+   design and construction of consumer's domain query model, (3) the
+   deferment of semantic heterogeneity resolution to the query result
+   assembly time instead of before or at the time of query formulation, and
+   (4) the systematic development of the query mediation framework and the
+   procedure of each query processing step from query routing, query
+   decomposition, parallel access planning, query translation to query
+   result assembly. To make DIOM concrete, we outline the DIOM-based
+   information mediation architecture, which includes important auxiliary
+   services such as domain-specific metadata library and catalog functions,
+   object linking databases, and associated query services. Several
+   practical examples and application scenarios illustrate the flavor of
+   DIOM query mediation framework and the usefulness of DIOM in multi
+   database query processing.},
+DOI = {10.1023/A:1008641408566},
+ISSN = {0926-8782},
+Unique-ID = {WOS:A1997XC02500002},
+}
+
+@article{ WOS:A1997WT75100005,
+Author = {Wellings, A and Burns, A},
+Title = {Implementing atomic actions in Ada 95},
+Journal = {IEEE TRANSACTIONS ON SOFTWARE ENGINEERING},
+Year = {1997},
+Volume = {23},
+Number = {2},
+Pages = {107-123},
+Month = {FEB},
+Abstract = {Atomic actions are an important dynamic structuring technique that aid
+   the construction of fault-tolerant concurrent systems. Although they
+   were developed some years ago, none of the well-known
+   commercially-available programming languages directly support their use.
+   This paper summarizes software fault tolerance techniques for concurrent
+   systems, evaluates the Ada 95 programming language from the perspective
+   of its support for software fault tolerance, and shows how Ada 95 can be
+   used to implement software fault tolerance techniques. In particular, it
+   shows how packages, protected objects, requeue, exceptions, asynchronous
+   transfer of control, tagged types, and controlled types can be used as
+   building blocks from which to construct atomic actions with forward and
+   backward error recovery, which are resilient to deserter tasks and task
+   abortion.},
+DOI = {10.1109/32.585500},
+ISSN = {0098-5589},
+ResearcherID-Numbers = {Burns, Alan/AAF-2700-2019},
+Unique-ID = {WOS:A1997WT75100005},
+}
+
+@inproceedings{ WOS:000082308400038,
+Author = {Borst, P and Top, J and Akkermans, H},
+Editor = {Granda, JJ and DauphinTanguy, G},
+Title = {The THERMLIB library of generic thermodynamic model components},
+Booktitle = {1997 INTERNATIONAL CONFERENCE ON BOND GRAPH MODELING AND SIMULATION
+   (ICBGM'97)},
+Series = {SIMULATION SERIES},
+Year = {1997},
+Volume = {29},
+Number = {1},
+Pages = {247-252},
+Note = {1997 Western MultiConference on the 3rd International Conference on Bond
+   Graph Modeling and Simulation (ICBGM 97), PHOENIX, AZ, JAN 12-15, 1997},
+Organization = {Soc Comp Simulat Int},
+Abstract = {Recent work (Akkermans, Borst, Pos, and Top 1995; Top, Breunese,
+   Broenink, and Akkermans 1995; Top, Breunese, van Dijk, Broenink, and
+   Akkermans 1994) describes the structure of the OLMECO library, an open
+   library of reusable model components for the design and simulation of
+   mechatronic systems. Now that the library software has been implemented,
+   the focus has shifted to the design of the model fragments in the
+   library and the use of the library. This article describes the
+   experiences in the design and use of the THERMLIB library of model
+   fragments for the thermodynamic domain, which is a part of the OLMECO
+   library. Aspects of the use of the library indicate that an extension of
+   the library can make the modeling process even more efficient.
+   Furthermore, design considerations for the thermodynamic library models
+   provide guidelines for the design of future model fragments and show the
+   benefits of a modeling tool capable of automatic bond graph
+   simplifications.},
+ISSN = {0735-9276},
+ISBN = {1-56555-103-6},
+Unique-ID = {WOS:000082308400038},
+}
+
+@inproceedings{ WOS:000074027900003,
+Author = {Feldman, MB},
+Editor = {Hardy, K and Briggs, J},
+Title = {An Ada 95 sort race construction set},
+Booktitle = {RELIABLE SOFTWARE TECHNOLOGIES - ADA-EUROPE `97},
+Series = {LECTURE NOTES IN COMPUTER SCIENCE},
+Year = {1997},
+Volume = {1251},
+Pages = {23-34},
+Note = {1997 Ada-Europe International Conference on Reliable Software
+   Technologies (Ada-Europe 97), LONDON, ENGLAND, JUN 02-06, 1997},
+Abstract = {A ``sort race{''} is a set of sort algorithms, executing concurrently
+   and using some kind of visualization scheme to display the state of the
+   various sorts as they proceed. The sort race is often used in algorithms
+   and data structures courses to illustrate the disparate behavior and
+   time performance of different sort algorithms; it has also served
+   software engineering education, as an interesting, even exciting,
+   example of concurrent programming and separation of concerns.
+   This paper describes a set of Ada 95 packages providing a ``sort race
+   construction set,{''} which allows users to create sort races on various
+   platforms using various techniques for rendering the race display. We
+   have used the construction set with GNAT to implement sort races using
+   the Macintosh user interface and graphics libraries, VGA graphical
+   displays on MS-DOS computers, and standard 24 x 80 character displays.},
+ISSN = {0302-9743},
+ISBN = {3-540-63114-3},
+Unique-ID = {WOS:000074027900003},
+}
+
+@inproceedings{ WOS:A1997BJ50U00003,
+Author = {Gall, H and Jazayeri, M and Klosch, R and Trausmuth, G},
+Book-Group-Author = {IEEE COMP SOC},
+Title = {The architectural style of component programming},
+Booktitle = {COMPSAC 97 : TWENTY-FIRST ANNUAL INTERNATIONAL COMPUTER SOFTWARE \&
+   APPLICATIONS CONFERENCE},
+Series = {PROCEEDINGS - INTERNATIONAL COMPUTER SOFTWARE \& APPLICATIONS CONFERENCE},
+Year = {1997},
+Pages = {18-25},
+Note = {21st Annual International Computer Software and Applications Conference
+   (COMPSAC 97), WASHINGTON, DC, AUG 13-15, 1997},
+Organization = {IEEE Comp Soc},
+Abstract = {Component programming is a multiparadigm approach to software
+   construction based on highly generic components. Because component
+   programming is concerned with source code components, it is assumed by
+   many to be a low-level approach to software development that affects
+   only the development gi source code libraries. On the contrary, this
+   paper shows that the concepts of component programming go beyond library
+   and source code issues, but define a new conceptual attempt to software
+   development with generic components. We shaw that component programming
+   is an architectural style that supports the building of classes of
+   software architectures in a specific domain. Component programming can
+   be applied in the early stages of software development when
+   architectural issues are to be determined All the benefits of using an
+   architectural style, therefore, can also be gained by using component
+   programming: it guides the engineer in the problem decomposition towards
+   design and implementation of a system. The paper presents the
+   architectural style of component programming and the insights we gained
+   about component programming as we tried to define it as an architectural
+   style.},
+DOI = {10.1109/CMPSAC.1997.624696},
+ISSN = {0730-3157},
+ISBN = {0-8186-8106-3},
+ORCID-Numbers = {Gall, Harald/0000-0002-3874-5628},
+Unique-ID = {WOS:A1997BJ50U00003},
+}
+
+@article{ WOS:A1997YK01300005,
+Author = {Hogan, TA},
+Title = {Stability and independence of the shifts of finitely many refinable
+   functions},
+Journal = {JOURNAL OF FOURIER ANALYSIS AND APPLICATIONS},
+Year = {1997},
+Volume = {3},
+Number = {6},
+Pages = {757-774},
+Abstract = {Typical constructions of wavelets depend on the stability of the ships
+   of an underlying refinable function. Unfortunately several desirable
+   properties are not available with compactly supported orthogonal
+   wavelets, e.g., symmetry and piecewise polynomial structure. Presently,
+   multiwavelets seem to offer a satisfactory alternative. The study of
+   multiwavelets involves the consideration of the properties of several
+   (simultaneously) refinable functions. In Section 2 of this article, we
+   characterize stability and linear independence of the shifts of a finite
+   refinable function set in terms of the refinement mask. Several
+   illustrative examples are provided.
+   The characterizations given in Section 2 actually require that the
+   refinable functions be minimal in some sense. This notion of minimality
+   is made clear in Section 3, where we provide sufficient conditions on
+   the mask to ensure minimality. The conditions are shown to be necessary
+   also under further assumptions on the refinement mask. An example is
+   provided illustrating how the software package MAPLE can be used to
+   investigate at least the case of two simultaneously refinable functions.},
+DOI = {10.1007/BF02648266},
+ISSN = {1069-5869},
+Unique-ID = {WOS:A1997YK01300005},
+}
+
+@inproceedings{ WOS:000072386900017,
+Author = {Jagadeesha, CJ and Adiga, S},
+Editor = {Varma, CVJ and Rao, ARG},
+Title = {Some aspects of selection of small hydro project sites using remote
+   sensing and GIS},
+Booktitle = {RENEWABLE ENERGY - SMALL HYDRO, FIRST INTERNATIONAL CONFERENCE, SELECT
+   PAPERS},
+Year = {1997},
+Pages = {207-217},
+Note = {1st International Conference on Renewable Energy - Small Hydro,
+   HYDERABAD, INDIA, FEB 03-07, 1997},
+Organization = {UNDP GEF Hilly Hydro Project; Govt India, Minist Non Convent Energy
+   Sources; Govt India, Minist Sci \& Technol; Indian Renewable Energy Dev
+   Agcy Ltd; Kirloskar Bros Ltd; Winrock, Renerable Energy Project Support
+   Off; Sulzer Flovel Hydro Ltd; Orissa Hydro Power Corp Ltd; Subhash
+   Project \& Mkt Ltd},
+Abstract = {The evaluation of potential dam sites is usually performed in three
+   phases. During the first phase all the potential sites and their
+   comparable characteristics are determined. The second phase comprises of
+   evaluation of these potential sites for prioritization. In the third
+   phase the detailed design is taken up-for the selected ones and these
+   are taken up for development. Thus during the first two phases satellite
+   data and the Geographic Information System (GIS) can be of immense
+   value. The map scales for the entire area under construction should be
+   1:250,000 for Phase I study and 1:25,000 to 1:50,000 for Phase II study.
+   The third phase has very large map scale requirements wherein aerial
+   remote sensing and field surveys are needed. Using the satellite data
+   and collateral data from SOI toposheets the geologic maps of surficial
+   deposits, slope map, slope stability map, lithology map could be
+   prepared. These are used as vector/raster layers in a GIS environment
+   for selection of suitable hydroelectric sites. The information on
+   construction materials, foundation conditions, internal drainage
+   conditions, weak planes and mass-wasting process which facilitate good
+   planning and safer/cheaper construction could also be derived using
+   satellite and ancillary data. Geologic maps on the topographic base,
+   together with accompanying hydrologic information, provide just such
+   knowledge, which are basic to any rational understanding of the ground
+   conditions that the planner must have.
+   Digital Terrain Models (DTM) may be created by either digitising
+   contours and spot heights from existing topographic maps, collecting
+   elevations with field survey or as a product of photogrammetric
+   stereo-compilation. The spatial frequency of the sample elevations and
+   the precision of the data are two other factors that must be considered
+   with respect to DTM. The ability of IRS-1C to ``point{''} on-board
+   sensor upon command at anywhere upto +/-26 degrees off-nadir provides
+   the possibility for acquiring high resolution (5.8m) stereoscopic data
+   in panchromatic mode over large geographic areas (swath of 70km) and
+   revisit frequency of five days. Thus the DTM which can be generated
+   using either topomaps or satellite data can be used to get computer
+   derived slope, exposition and height or relief for each pixel. Further
+   there is the methodology of DTM analysis in generating three types of
+   data sets, i.e., original DEM with depressions filled, a data set
+   indicating the flow direction for each cell, and a flow accumulation
+   data set for each cell which define the topographic structure. Thus the
+   digital representation of topographic surfaces after suitable accuracy
+   assessments help in estimating peak discharge values in map units chosen
+   for small hydroelectric sites. Hence suitable sites for hydroelectric
+   power can be arrived in a reconnaissance way.
+   Seismotectonic analysis and predictive earthwork cost estimates can be
+   carried out using satellite data or aero-space data at a targeting level
+   in the selection of site for small-hydro. Knowledge based selection of
+   geotechnically favourable attributes for hydel site can be carried out
+   using GIS package.
+   The ERDAS and EASI/PACE image processing software, ARC/INFO GIS software
+   and micro photogrammetry equipment with Geocomp software are available
+   at the Regional Remote Sensing Service Centre (RRSSC) of ISRO in
+   Bangalore. Geocomp Version-8 of DTM can handle data sets upto 32670-3D
+   points and a modeling speed of over 30,000 points/minute. These can be
+   put to use in arriving at such predictive models for peak flow,
+   estimation of earthwork, seismicity and landslides near a small hydro
+   site.},
+ISBN = {90-5410-749-9},
+Unique-ID = {WOS:000072386900017},
+}
+
+@inproceedings{ WOS:A1997BH83V00001,
+Author = {Kaiser, GE and Jiang, WY and Dossick, SE and Yang, JS},
+Book-Group-Author = {ACM SIGSOFT},
+Title = {An architecture for WWW-based hypercode environments},
+Booktitle = {PROCEEDINGS OF THE 1997 INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING},
+Series = {INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING},
+Year = {1997},
+Pages = {3-13},
+Note = {19th International Conference on Software Engineering (ICSE 97) -
+   Pulling Together, BOSTON, MA, MAY 17-23, 1997},
+Organization = {IEEE Comp Soc Tech Council Software Engn; ACM SIGSOFT},
+Abstract = {A hypercode software engineering environment represents all plausible
+   multimedia artifacts concerned with software development and evolution
+   that can be placed or generated on-line, from source code to formal
+   documentation to digital library resources to informal email and chat
+   transcripts. A hypercode environment supports both internal (hypertext)
+   and external (link server) links among these artifacts, which can be
+   added incrementally as useful connections are discovered;
+   project-specific hypermedia search and browsing; automated construction
+   of artifacts and hyperlinks according the software process; application
+   of tools to the artifacts according to the process workflow; and
+   collaborative work for geographically dispersed teams. We present a
+   general architecture for what we call hypermedia subwebs, and groupspace
+   services operating on shared subwebs, based on World Wide Web technology
+   - which could be applied over the Internet or within an intranet. We
+   describe our realization in OzWeb.},
+DOI = {10.1145/253228.253231},
+ISSN = {0270-5257},
+ISBN = {0-89791-914-9},
+Unique-ID = {WOS:A1997BH83V00001},
+}
+
+@inproceedings{ WOS:A1997BJ04K00233,
+Author = {Plaskacz, EJ},
+Editor = {Owen, DRJ and Onate, E and Hinton, E},
+Title = {Industrial applications of parallel computing and virtual reality
+   technologies in the context of nonlinear explicit transient finite
+   element analysis},
+Booktitle = {COMPUTATIONAL PLASTICITY: FUNDAMENTALS AND APPLICATIONS, PTS 1 AND 2},
+Year = {1997},
+Pages = {1835-1842},
+Note = {5th International Conference on Computational Plasticity (COMPLAS V),
+   BARCELONA, SPAIN, MAR 17-20, 1997},
+Abstract = {An ubiquity of high-performance computer architectures, visualization,
+   virtual reality and advanced telecommunications is currently underway,
+   promising to radically alter the way designers, manufacturers, engineers
+   and scientists will do their work. These technologies permit the
+   construction of environments where computer models can be studied in a
+   manner analogous to experimental prototypes. This paper win summarize
+   our application of these new technologies to finite element models,
+   reflecting challenges currently faced by the manufacturing industry. Our
+   current implementation of parallel finite element analysis is. built
+   upon a foundation consisting of geometric domain decomposition, a
+   portable message-passing library (MPI) and the SPMD (single-program
+   multiple-data) programming paradigm. The use of the CAVE (CAVE Automatic
+   Virtual Environment) for the interactive virtual reality visualization
+   of finite element results will also be described. Finally, our use of
+   the CAVE as a collaborative tool through the use of the CAVE-to-CAVE
+   software library will be summarized.},
+ISBN = {84-87867-71-5},
+Unique-ID = {WOS:A1997BJ04K00233},
+}
+
+@inproceedings{ WOS:A1997BH39D00089,
+Author = {Rath, D and Chandrasekaran, A},
+Book-Group-Author = {IEEE COMP SOC},
+Title = {A novel approach to the design and implementation of a power electronics
+   simulation software package},
+Booktitle = {PROCEEDINGS OF THE TWENTY-NINTH SOUTHEASTERN SYMPOSIUM ON SYSTEM THEORY},
+Series = {PROCEEDINGS - SOUTHEASTERN SYMPOSIUM ON SYSTEM THEORY},
+Year = {1997},
+Pages = {473-476},
+Note = {24th Southeastern Symposium on System Theory, COOKEVILLE, TN, MAR 09-11,
+   1997},
+Organization = {Tennessee Technol Univ, Dept Elect \& Comp Engn; IEEE Comp Soc; IEEE
+   Control Syst Soc; Tennessee Technol Univ, Ctr Mfg Res; Tennessee Technol
+   Univ, Ctr Elect Power},
+Abstract = {The novel approach is to interface Matlab and Simulink with a graphical
+   user interface (GUI) developed in Visual C++. Object oriented
+   programming is a new way of approaching the job of programming. Object
+   oriented programming was used to create a separate class for each of the
+   items and devices to be handled on the screen. This Power Electronics
+   software can be used for designing, analyzing and simulating Power
+   Electronics circuits using modified nodal formulation. It's graphical
+   user interface has a screen to draw the circuit with drag and drop
+   features for the Power Electronics network components. The simulation is
+   performed by an external software, namely, Matlab/Simulink Modified
+   nodal formulation is used on the backward Euler formula is employed to
+   arrive at the equation which governs the circuit simulation. Entire
+   circuit connection information is passed on to the background simulation
+   program in the form of a precisely formatted matrix.},
+DOI = {10.1109/SSST.1997.581711},
+ISSN = {0094-2898},
+ISBN = {0-8186-7873-9},
+Unique-ID = {WOS:A1997BH39D00089},
+}
+
+@article{ WOS:000171774300157,
+Author = {Sittig, DF and Teich, JM and Yungton, JA and Chueh, HC},
+Title = {Preserving context in a multi-tasking clinical environment: A pilot
+   implementation},
+Journal = {JOURNAL OF THE AMERICAN MEDICAL INFORMATICS ASSOCIATION},
+Year = {1997},
+Number = {S},
+Pages = {784-788},
+Abstract = {The Partners Clinical Application Suite (CAS) is a multi-tasking
+   software architecture that facilitates the development, deployment, and
+   use of advanced clinical information management applications. This paper
+   describes 1) a software shell in which clinical applications run; 2) an
+   application programming interface (API); and 3) development of a set of
+   ``Look \& Feel{''} guidelines. Through its emphasis on support for
+   multi-tasking and application interoperability, CAS facilitates
+   preservation of the user's context.},
+ISSN = {1067-5027},
+EISSN = {1527-974X},
+ResearcherID-Numbers = {Sittig, Dean F./D-2471-2009},
+ORCID-Numbers = {Sittig, Dean F./0000-0001-5811-8915},
+Unique-ID = {WOS:000171774300157},
+}
+
+@article{ WOS:A1997XB52800009,
+Author = {Spotorno, B and Piccinini, L and Tassara, G and Ruggiero, C and Nardini,
+   M and Molina, F and Rocco, M},
+Title = {BEAMS (BEAds Modelling System): A set of computer programs for the
+   generation, the visualization and the computation of the hydrodynamic
+   and conformational properties of bead models of proteins},
+Journal = {EUROPEAN BIOPHYSICS JOURNAL WITH BIOPHYSICS LETTERS},
+Year = {1997},
+Volume = {25},
+Number = {5-6},
+Pages = {373-384},
+Note = {4th United-Kingdom-Analytical-Ultracentrifuge-Users-Group Meeting, UNIV
+   LEICESTER, LEICESTER, ENGLAND, MAR 25-26, 1996},
+Organization = {UK Analyt Ultracentrifuge Users Grp; Natl Ctr Macromolec Hydrodynam},
+Abstract = {Spheres, cylinders or ellipsoids, whose hydrodynamic properties can be
+   computed from analytical or semi-analytical expressions, have been
+   traditionally used as low-resolution approximate descriptors of
+   macromolecular size and shape. However, these simple geometrical bodies
+   can seldom faithfully reproduce any detail of a macromolecular surface.
+   A more sophisticated procedure utilizes instead ensembles of spheres
+   (''beads'') of various diameters in an appropriate spatial arrangement
+   to model the macromolecule. This method has not yet gained widespread
+   application, partially because of the difficulties involved both in the
+   generation and in the handling of the models, and because of the rather
+   complicated mathematics involved in the computation of the hydrodynamic
+   parameters, requiring non-trivial dedicated computer software virtually
+   unavailable in the public-domain. A notable exception was the `'TRV''
+   program and its predecessors developed by the Garcia de la Torre's
+   group, which have been recently updated and made available as the
+   `'HYDRO'' package (Garcia de Ia Torre et al. 1994).
+   To make accessible as many aspects as possible of this powerful
+   modelling procedure, we have assembled a set of computer programs
+   written in C language called BEAMS (BEAds Modelling System), which are
+   described in this paper. The main BEAMS programs provide the user with a
+   choice of four different methods for the computation of the hydrodynamic
+   and structural parameters of ensembles of beads, with the option of
+   automatically generating many random conformations of linear, branched
+   and/or looped strings-of-beads. Selected models can be visualized from
+   ally desired point of view and manipulated interactively on a
+   high-resolution colour monitor, and plotted as two-dimensional
+   projections on an eight colour plotter. A further option permits the
+   calculation of the parameters for segmentally flexible models composed
+   of two subunits. Two ancillary programs, PROMOLP (written in
+   Visual-Basic for Windows(TM)) and GRUMB (written in C for general PC
+   use) help the user in the definition of the number and radius of the
+   beads to be used for the models, and in the interactive construction of
+   spatially pre-defined models. BEAMS should be especially useful in the
+   generation of low-resolution models of large-sized proteins which are
+   difficult or impossible to solve with high-resolution techniques such as
+   X-ray crystallography or NMR, and, in multidomain/modular proteins, in
+   defining the overall spatial arrangement of the various domains/modules
+   from their known 3D-structures.},
+DOI = {10.1007/s002490050050},
+ISSN = {0175-7571},
+EISSN = {1432-1017},
+ResearcherID-Numbers = {Nardini, Marco/B-7842-2017
+   Ruggiero, Carmelina/B-6038-2015
+   Rocco, Mattia/AAN-7942-2021},
+ORCID-Numbers = {Nardini, Marco/0000-0002-3718-2165
+   Ruggiero, Carmelina/0000-0002-5275-2074
+   Rocco, Mattia/0000-0002-0456-7528},
+Unique-ID = {WOS:A1997XB52800009},
+}
+
+@inproceedings{ WOS:000167624100128,
+Author = {Wu, JJ and Liu, PF and Chen, M and Cowie, J},
+Editor = {Arabnia, HR},
+Title = {VGDS: An object-oriented framework for distributed scientific computing},
+Booktitle = {INTERNATIONAL CONFERENCE ON PARALLEL AND DISTRIBUTED PROCESSING
+   TECHNIQUES AND APPLICATIONS, VOLS I-III, PROCEEDINGS},
+Year = {1997},
+Pages = {1006-1014},
+Note = {International Conference on Parallel and Distributed Processing
+   Techniques and Applications (PDPTA 97), LAS VEGAS, NV, JUN 30-JUL 03,
+   1997},
+Organization = {Comp Sci Res, Educ \& Applicat Tech; N Amer Transputer Users Grp; Comp
+   Vis Res \& Applicat Tech; US DOE, Natl Super Comp Ctr Energy \& Environm},
+Abstract = {Two major engineering bottlenecks in the production pipeline for High
+   Performance Computing software result from a shortage of adequate design
+   tools and design theory. We propose one technology that can help
+   eliminate the HPC software bottleneck: object-oriented construction of
+   virtual global data structures (VGDS). In this paper, we give an
+   overview of the VGDS framework. Our VGDS effort focuses on developing a
+   general purpose, distributed environment that will allow fast
+   prototyping of a diverse set of simulation problems in scientific and
+   engineering domains, including regular, irregular, and adaptive
+   problems. The framework defines multiple layers of class libraries,
+   which work together to provide data-parallel representations to
+   application developers while encapsulate parallel implementation details
+   into lower layers of the framework.},
+ISBN = {0-9648666-8-4},
+Unique-ID = {WOS:000167624100128},
+}
+
+@article{ WOS:A1996WR30100002,
+Author = {Harrison, A and Thomas, PG},
+Title = {Integrating multiple and diverse abstract knowledge types in real-time
+   embedded systems},
+Journal = {KNOWLEDGE-BASED SYSTEMS},
+Year = {1996},
+Volume = {9},
+Number = {7},
+Pages = {417-434},
+Month = {NOV},
+Abstract = {Designers of large-scale real-time systems are increasingly turning to
+   knowledge-based techniques in order to solve complex problems. This
+   paper identifies three essential needs to support the implementation of
+   these systems: first, the need to provide a variety of knowledge-based
+   components that can be used to model the diverse expert domains being
+   encountered; second, the need to provide the user with the means of
+   creating multiple independent instances of the knowledge-based
+   components; and third, the need to provide an integrating environment in
+   which the knowledge-based instances may be controlled. This paper uses
+   ideas derived from the concept of abstract data types and recommends the
+   construction of a library of diverse knowledge-based components, called
+   abstract knowledge types, and that multiple instances of the abstract
+   knowledge types be integrated and controlled using a blackboard
+   architecture. A prototype component library and a blackboard have been
+   implemented in Ada in order to take advantage of a real-time language
+   which supports software engineering principles through a well defined
+   and enforced standard. The use of abstract knowledge types gives a
+   uniform software engineered approach to the development and integration
+   of both conventional and knowledge-based components.},
+DOI = {10.1016/S0950-7051(96)01052-0},
+ISSN = {0950-7051},
+Unique-ID = {WOS:A1996WR30100002},
+}
+
+@article{ WOS:A1996VB16100010,
+Author = {Curtiss, PS and Rabl, A},
+Title = {Impacts of air pollution: General relationships and site dependence},
+Journal = {ATMOSPHERIC ENVIRONMENT},
+Year = {1996},
+Volume = {30},
+Number = {19},
+Pages = {3331-3347},
+Month = {OCT},
+Abstract = {We analyze the structure of the impact pathway methodology and show
+   that, for the important problem of calculating the expectation value of
+   the marginal damage from a point pollution source, the equations can be
+   simplified greatly. Ln particular, in a uniform world (uniform receptor
+   density and uniform atmosphere) they can be integrated in closed form to
+   yield a very simple formula for the total damage D-uni in a uniform
+   world. The generalization to secondary pollutants is straightforward. We
+   then test the relevance of this simple formula in the real world, by
+   using curve fits to the results of derailed models for atmospheric
+   dispersion and chemistry and by varying the receptor density according
+   to typical patterns. We also compare D-uni with the output of a software
+   package that carries out an accurate numerical integration of
+   atmospheric dispersion results over geographic data for population and
+   other receptors. Evaluating a set of five sites in France that appear
+   generally representative, ranging from rural to extremely urban, we find
+   that the true damage is within a factor of three of D-uni. This
+   remarkably small sensitivity to geographical detail can be explained by
+   the conservation of matter. We provide guidelines for several questions
+   that are relevant for environmental policy: what are the functional
+   relations and key parameters, as input to an uncertainty analysis? How
+   does the damage vary with key parameters, e.g. stack height? How much
+   accuracy and resolution is needed, in the atmospheric modeling and in
+   the data for receptor distribution? How large is the error if one uses
+   typical average values rather than detailed calculations? Copyright (C)
+   1996 Elsevier Science Ltd},
+DOI = {10.1016/1352-2310(96)00031-3},
+ISSN = {1352-2310},
+EISSN = {1873-2844},
+Unique-ID = {WOS:A1996VB16100010},
+}
+
+@article{ WOS:A1996VB83500001,
+Author = {Firth, JR and Forsyth, CH and Wand, IC},
+Title = {The compilation of Ada},
+Journal = {SOFTWARE-PRACTICE \& EXPERIENCE},
+Year = {1996},
+Volume = {26},
+Number = {8},
+Pages = {863-909},
+Month = {AUG},
+Abstract = {The Ada programming language has been in use for 12 years and a major
+   revision of the language, now called Ada 95, was adopted as a new
+   international standard on 15 February 1995. There have been many
+   accounts of the use of Ada 83 in a wide variety of applications but
+   little has been published about the construction, performance and
+   correctness of Ada compilers.
+   This paper details the design and construction of the York Ada compiler
+   and examines the major technical issues that determined the form of the
+   software constructed. The principal objectives of the compiler were: (a)
+   comprehensive error messages for the user; (b) compiler portability; and
+   (c) convenient use in the UNIX environment. A subsidiary objective was
+   to research the technical issues involved in the compilation of the
+   (then) novel features of Ada (e.g. tasking). The principal technical
+   innovations of the resulting compiler were the use of software tools to
+   construct some of the syntax-based parts of the system, and use of a
+   machine description and tree automata to support portable code
+   generation. The resulting compiler is small, reasonably fast, and easy
+   to move from machine to machine. It will compile very large programs,
+   involving many units and libraries, and integrates well with the UNIX
+   environment.
+   The compiler has been ported to six different architectures and
+   validated under four different versions of the Validation Test Suite; it
+   has been used widely academically and is sold commercially.
+   Based upon this accumulated experience, we examine critically the
+   compiler's design and construction. We conclude that the lack of a
+   rigorous language definition made the design and construction
+   particularly difficult, but that the portability method employed was
+   successful. With care, the compiler for a large language need not be
+   huge; its construction is then possible using a small team. This
+   compiler and its tool set would not, however, pass a rigorous hazard
+   analysis and should not be used for the construction of safety-critical
+   systems.},
+ISSN = {0038-0644},
+Unique-ID = {WOS:A1996VB83500001},
+}
+
+@article{ WOS:A1996VK75500009,
+Author = {Gore, JA and Hamilton, SW},
+Title = {Comparison of flow-related habitat evaluations downstream of low-head
+   weirs on small and large fluvial ecosystems},
+Journal = {REGULATED RIVERS-RESEARCH \& MANAGEMENT},
+Year = {1996},
+Volume = {12},
+Number = {4-5},
+Pages = {459-469},
+Month = {JUL-OCT},
+Note = {International Workshop on Remedial Strategies in Regulated Rivers,
+   LYCKSELE, SWEDEN, SEP 25-28, 1995},
+Organization = {Swedish Environmental Protect Agcy},
+Abstract = {The focus of within-channel restoration is the placement and
+   construction of instream habitat structures to enhance the capture of
+   organic detritus and aufwuchs, as well as, colonization by
+   macroinvertebrate and fish species. Structural design is based upon the
+   assumption that these habitat requirements can be controlled through the
+   design of structures that produce preferred physical and chemical
+   conditions in relation to flow conditions. Restoration scientists are
+   assuming that hydraulic conditions are one primary template that govern
+   the distribution of lotic organisms. For benthic macroinvertebrates,
+   substrate composition is the most easily manipulated habitat
+   characteristic. The most common structures for fish habitat enhancement
+   have been current deflectors, overpour structures (dams and weirs) and
+   instream cover, especially for juveniles. These instream structures also
+   modify local hydraulic conditions to present preferred habitat to
+   benthic invertebrates. The physical habitat simulation (PHABSIM), a
+   software package used in the instream flow incremental methodology, was
+   used to evaluate stream enhancement activities on a low-order stream,
+   with the placement of a series of three-log weirs on Brushy Branch, a
+   second-order stream in Tennessee, and compared with published results of
+   a hydraulically similar concrete structure on a large-order system used
+   to re-regulate flows downstream of peaking hydropower facility on the
+   Cumberland River, Tennessee. On Brushy Branch, the simulation
+   demonstrated that benthic macroinvertebrate habitat can be dramatically
+   increased at low flows (up to five times higher) after placement of
+   structures that improve hydraulic conditions to sustain maximum
+   diversity of the benthic community. In this case, then, the structures
+   acted to augment habitat under low flow conditions. Reregulation dams,
+   on large rivers, modify the water surface elevation and dampen high
+   velocities, which enhances habitat for juvenile and adult salmonids when
+   subject to the high discharge surges of peaking generation. Thus, these
+   low-head structures augment habitat under high flow conditions.
+   Hydraulic habitat models, then, can be a useful tool to evaluate the
+   benefit of certain restoration activities and, in the case of weir-like
+   structures, indicate that similar structures impart similar benefit,
+   regardless of scale of application.},
+ISSN = {0886-9375},
+Unique-ID = {WOS:A1996VK75500009},
+}
+
+@article{ WOS:A1996UG37600003,
+Author = {Case, MP and Lu, SCY},
+Title = {Discourse model for collaborative design},
+Journal = {COMPUTER-AIDED DESIGN},
+Year = {1996},
+Volume = {28},
+Number = {5},
+Pages = {333-345},
+Month = {MAY},
+Abstract = {A Discourse Model, including a structure and a process, is developed
+   that provides software support for collaborative engineering design. The
+   model shares characteristics of other design systems in the literature,
+   including frames, constraints, semantic networks, and libraries of
+   sharable design objects. It contributes a new model for conflict-aware
+   agents, dynamic identification and dissemination of agent interest sets,
+   a virtual workspace language, automatic detection of conflict, and a
+   unique protocol for negotiation that ensures that interested agents have
+   an opportunity to participate. The model is implementation independent
+   and applicable to many research and commercial design environments
+   currently available. An example scenario is provided in the
+   architecture/engineering/construction domain that illustrates
+   collaboration during the conceptual design of a fire station.},
+DOI = {10.1016/0010-4485(95)00053-4},
+ISSN = {0010-4485},
+Unique-ID = {WOS:A1996UG37600003},
+}
+
+@article{ WOS:A1996TX79400125,
+Author = {Gaing, ZL and Lu, CN and Chang, BS and Cheng, CL},
+Title = {An object-oriented approach for implementing power system restoration
+   package},
+Journal = {IEEE TRANSACTIONS ON POWER SYSTEMS},
+Year = {1996},
+Volume = {11},
+Number = {1},
+Pages = {483-489},
+Month = {FEB},
+Note = {1995 IEEE Power Industry Computer Application Conference (PICA 95), SALT
+   LAKE CITY, UT, MAY 07-12, 1995},
+Organization = {IEEE, Power Engn Soc},
+Abstract = {Due to many unforeseen circumstances that could happen in the today's
+   bulk power system, there is a possibility of a system wide outage. In
+   order to provide aids to the power system dispatchers following a
+   complete collapse of the power system, a prototype package has been
+   developed. Through interactive acid friendly graphic interface, the
+   package suggests a guideline for the dispatcher to restore the power
+   system. With an aim to increase the ease of maintenance, object-oriented
+   technique was adopted to implement the package. The development of the
+   software involved three stages: 1) Object oriented analysis, 2) Object
+   oriented design, and 3) integration and testing. In this paper, the
+   structure and the development procedure of the prototype system are
+   presented.},
+DOI = {10.1109/59.486137},
+ISSN = {0885-8950},
+Unique-ID = {WOS:A1996TX79400125},
+}
+
+@inproceedings{ WOS:A1996BG78J00059,
+Author = {David, O},
+Editor = {Zannetti, P and Brebbia, CA},
+Title = {Experiences building a pure object-oriented modelling system
+   architecture},
+Booktitle = {DEVELOPMENT AND APPLICATION OF COMPUTER TECHNIQUES TO ENVIRONMENTAL
+   STUDIES VI},
+Year = {1996},
+Pages = {605-614},
+Note = {6th International Conference on Development and Application of Computer
+   Techniques to Environmental Studies (ENVIROSOFT 96), COMO, ITALY, SEP
+   18-20, 1996},
+Organization = {Wessex Inst Technol, UK},
+Abstract = {Modelling and simulation of complex environmental problems becomes more
+   interesting by using modern software construction techniques for
+   building large scale models. A closely problem-oriented and transparent
+   software design and it's efficient implementation seems to be orthogonal
+   in the past. The pure object-oriented approach in modern software
+   construction leads to a very homogenous system view for developing
+   software in general. In modelling and simulation object-oriented system
+   view becomes more and more interesting because of problem-oriented
+   representation of environmental research topics. The paper presents the
+   design of the Object Kernel as a part of the Object Modelling System
+   developed at the Department as an integrated system for building modells
+   on the top of existing library components using. Emphasis is given on
+   the design of the modelling system architecture.},
+ISBN = {1-85312-411-7},
+Unique-ID = {WOS:A1996BG78J00059},
+}
+
+@inproceedings{ WOS:A1996BG72S00066,
+Author = {Gitschel, C and Buchholz, O and Rohde, FG},
+Editor = {Maxwell, WHC and Preul, HC and Stout, GE},
+Title = {A generator for hydrologic runoff models},
+Booktitle = {RIVERTECH `96 - 1ST INTERNATIONAL CONFERENCE ON NEW/EMERGING CONCEPTS
+   FOR RIVERS, PROCEEDINGS, VOLS 1 AND 2: CELEBRATING THE TWENTY-FIFTH
+   ANNIVERSARY OF IWRA},
+Year = {1996},
+Pages = {445-452},
+Note = {1st International Conference on New/Emerging Concepts for Rivers
+   (RIVERTECH96), Celebrating the 25th Anniversary of IWRA, CHICAGO, IL,
+   SEP 22-26, 1996},
+Organization = {Int Water Resources Assoc; Univ Illinois Urbana Champaign; Univ Illinois
+   Chicago; Univ Cincinnati; Marquette Univ; Metropolitan Reclamat Dist
+   Greater Chicago; Water Dept Chicago; Illinois Dept Nat Resources; US
+   Geol Survey; Harza Engn, Chicago, Ill},
+Abstract = {Most of the available hydrologic modeling systems utilize fixed data and
+   program structures. The variation of modeling concepts and/or the use of
+   alternative data commonly requires extensive software modifications. In
+   order to avoid these extremely time consuming activities, an
+   interactive, window oriented model generator has been developed, which
+   enables the hydrologist to easily design and edit entire catchment
+   runoff models.
+   Following modular design principles, the user selects hydrologic
+   simulation functions (each describing an individual hydrological
+   process) from a library of available submodules. The assignment of
+   different sequences of submodules to hydrological spaces (e.g.
+   hydrological response units or river sections) and the construction of
+   flow networks is supported by GIS functions.
+   All data necessary for both model generation and simulation are kept in
+   a joint data base combining geographical information, time series,
+   alphanumeric information, and source codes of submodules. Most data are
+   stored in a relational database to safeguard overall data consistency.
+   Results obtained from a catchment study demonstrate the usability and
+   versatility of the system.},
+Unique-ID = {WOS:A1996BG72S00066},
+}
+
+@article{ WOS:A1996TX60600021,
+Author = {Schroeter, JP and Bretaudiere, JP},
+Title = {SUPRIM: Easily modified image processing software},
+Journal = {JOURNAL OF STRUCTURAL BIOLOGY},
+Year = {1996},
+Volume = {116},
+Number = {1},
+Pages = {131-137},
+Month = {JAN-FEB},
+Abstract = {A flexible, modular software package intended for the processing of
+   electron microscopy images is presented. The system consists of a set of
+   image processing tools or filters, written in the C programming
+   language, and a command line style user interface based on the UNIX
+   shell. The pipe and filter structure of UNIX and the availability of
+   command files in the form of shell scripts eases the construction of
+   complex image processing procedures from the simpler tools.
+   Implementation of a new image processing algorithm in SUPRIM may often
+   be performed by construction of a new shell script, using already
+   existing tools. Currently, the package has been used for two- and
+   three-dimensional image processing and reconstruction of macromolecules
+   and other structures of biological interest. (C) 1996 Academic Press,
+   Inc.},
+DOI = {10.1006/jsbi.1996.0021},
+ISSN = {1047-8477},
+Unique-ID = {WOS:A1996TX60600021},
+}
+
+@article{ WOS:A1995TF07200005,
+Author = {JELJELI, MN and RUSSELL, JS},
+Title = {COPING WITH UNCERTAINTY IN ENVIRONMENTAL CONSTRUCTION -
+   DECISION-ANALYSIS APPROACH},
+Journal = {JOURNAL OF CONSTRUCTION ENGINEERING AND MANAGEMENT-ASCE},
+Year = {1995},
+Volume = {121},
+Number = {4},
+Pages = {370-380},
+Month = {DEC},
+Abstract = {The environmental-cleanup market offers new and emerging business
+   opportunities for the construction industry. However, these
+   opportunities present substantial risks to contractors that decide to
+   engage in cleaning up hazardous and toxic waste (HTW) sites. These risks
+   can be attributed to the uncertainties of the technological and legal
+   environment. Of all the risks present in this type of work, legal
+   liability may be the most daunting. The intent of this paper is to
+   provide a structured methodology to estimate risks associated with
+   Superfund cleanup during construction and to quantitatively relate them
+   to potential contractor liability. A decision-analysis technique that
+   incorporates features from influence diagrams and decision trees was
+   used to develop a model that estimates a contractor's liability. This
+   model was developed through eliciting information from five industry
+   experts. These experts are knowledgeable regarding the variables
+   influencing events that effect a contractor's liability. The developed
+   model is implemented in DPL, a decision software package, and applied to
+   an actual Superfund project.},
+DOI = {10.1061/(ASCE)0733-9364(1995)121:4(370)},
+ISSN = {0733-9364},
+Unique-ID = {WOS:A1995TF07200005},
+}
+
+@article{ WOS:A1995TH19300003,
+Author = {TILSON, JL},
+Title = {MASSIVELY-PARALLEL SELF-CONSISTENT-FIELD CALCULATIONS},
+Journal = {INDUSTRIAL \& ENGINEERING CHEMISTRY RESEARCH},
+Year = {1995},
+Volume = {34},
+Number = {12},
+Pages = {4161-4165},
+Month = {DEC},
+Note = {Symposium on Computational Chemistry and Its Industrial Applications, at
+   the 1994 Annual Meeting of the American-Institute-of-Chemical-Engineers,
+   SAN FRANCISCO, CA, NOV, 1994},
+Organization = {Amer Inst Chem Engineers},
+Abstract = {The advent of supercomputers with many computational nodes each with its
+   own independent memory makes possible very fast computations. Our work
+   is focused on the development of electronic structure techniques for the
+   solution of Grand Challenge-size molecules containing hundreds of atoms.
+   Our efforts have resulted in a scalable direct-SCF
+   (self-consistent-field) Fock matrix construction kernel that is portable
+   and efficient. Good parallel performance is obtained by allowing
+   asynchronous communications and using a distributed data model. These
+   requirements are easily handled by using the Global Array (GA) software
+   library developed for this project. This algorithm has been incorporated
+   into the new program NWChem.},
+DOI = {10.1021/ie00039a002},
+ISSN = {0888-5885},
+Unique-ID = {WOS:A1995TH19300003},
+}
+
+@article{ WOS:A1995UJ60200027,
+Author = {Grachev, EV and Dyadin, YK and Lipkowski, J},
+Title = {Construction of crystal structure sections using the CLAT software
+   package},
+Journal = {JOURNAL OF STRUCTURAL CHEMISTRY},
+Year = {1995},
+Volume = {36},
+Number = {5},
+Pages = {876-879},
+Month = {SEP-OCT},
+DOI = {10.1007/BF02579685},
+ISSN = {0022-4766},
+Unique-ID = {WOS:A1995UJ60200027},
+}
+
+@article{ WOS:A1995TX95800011,
+Author = {Gulyanitskii, LF},
+Title = {Formalization and use of knowledge in discrete optimization systems},
+Journal = {CYBERNETICS AND SYSTEMS ANALYSIS},
+Year = {1995},
+Volume = {31},
+Number = {4},
+Pages = {590-598},
+Month = {JUL-AUG},
+Abstract = {In this article, we consider some issues of increasing the level of
+   intelligence of discrete optimization systems (DOS) designed for
+   hard-to-formalize search and optimal decision problems. The analysis of
+   these problems involves placing the given optimization problem in the
+   context of existing experience, automatic construction of a mathematical
+   model of the problem, algorithm selection and algorithm parameter
+   adjustment, and computer-aided instruction of the user by the system. We
+   propose an approach which implements multifactor and multi-alternative
+   analysis and investigation of mathematical models and alternative
+   solutions of discrete optimization problems. The proposed approach
+   automatically structures, accumulates, and uses previous problem-solving
+   experience and relevant expert knowledge for self-learning and
+   computational efficiency improvement in DOS through adaptation to
+   particular classes and types of problems. Our apparatus can be
+   incorporated in interactive discrete optimization technologies in
+   software packages, decision support systems (DSS), CAD/CAM systems, and
+   expert systems (ES).},
+DOI = {10.1007/BF02366414},
+ISSN = {1060-0396},
+ORCID-Numbers = {Hulianytskyi, Leonid/0000-0002-1379-4132},
+Unique-ID = {WOS:A1995TX95800011},
+}
+
+@article{ WOS:A1995RW87500005,
+Author = {RUARDIJ, P and BARETTA, JW and BARETTABEKKER, JG},
+Title = {SESAME, A SOFTWARE ENVIRONMENT FOR SIMULATION AND ANALYSIS OF MARINE
+   ECOSYSTEMS},
+Journal = {NETHERLANDS JOURNAL OF SEA RESEARCH},
+Year = {1995},
+Volume = {33},
+Number = {3-4},
+Pages = {261-270},
+Month = {JUL},
+Abstract = {The software environment SESAME is a model development and analysis tool
+   designed to facilitate the construction of ecological models using
+   Fortran-77 on UNIX machines. It consists of sets of routines which are
+   called from a menu-driven program to perform tasks such as automatic
+   compiling, linking and loading of a model, simulation runs, graphical
+   and numerical output, analysis of results and comparison with available
+   field data. It provides a choice of integration methods for simulating
+   continuous processes and can also handle discrete processes such as
+   encountered in systems with age- or size-structured populations. One
+   essential feature of the package is a routine which links submodules
+   unambiguously by automatically generating the information which needs to
+   be common to all sections of the model. This feature, together with the
+   concept of the distributed derivative, makes SESAME especially useful to
+   interdisciplinary teams working on the simultaneous development and
+   testing of complex, spatially-resolved ecosystem models comprising many
+   modules. Some examples of models constructed with SESAME are mentioned.},
+DOI = {10.1016/0077-7579(95)90049-7},
+ISSN = {0077-7579},
+Unique-ID = {WOS:A1995RW87500005},
+}
+
+@article{ WOS:A1995RK10400003,
+Author = {SOSIC, R},
+Title = {A PROCEDURAL INTERFACE FOR PROGRAM DIRECTING},
+Journal = {SOFTWARE-PRACTICE \& EXPERIENCE},
+Year = {1995},
+Volume = {25},
+Number = {7},
+Pages = {767-787},
+Month = {JUL},
+Abstract = {Debugging and performance measurement tools are becoming more important
+   in the development and maintenance of increasingly complex software,
+   These tools belong to a class of programs, called directors, Directors
+   are programs that monitor and control other programs, Through
+   monitoring, directors analyze program execution at runtime, Monitoring
+   provides tracing primitives as well as access to program's variables,
+   dynamic data structures, and its internal state, Results of the
+   monitoring analysis can be used by the director itself to change the
+   future program behavior or presented to a human user for an interactive
+   review and possible feedback actions. The future program behavior is
+   changed through controlling primitives which provide an organized way to
+   modify data values as well as the program code.
+   This paper presents a library of directing commands which enable the
+   construction of powerful directors, The interface has been implemented
+   in a Unix environment as a runtime subsystem running in the directed
+   program's address space, The paper provides the description of the
+   interface and the basic programming techniques in building directors,
+   Examples of novel applications, illustrating the use of the directing
+   interface, are demonstrated by the directors for the visualization of
+   program control and structured snapshots.},
+DOI = {10.1002/spe.4380250704},
+ISSN = {0038-0644},
+Unique-ID = {WOS:A1995RK10400003},
+}
+
+@article{ WOS:A1995RH78700002,
+Author = {CHARPIN, C and ZIELONKA, TM and CHARPIN, D and ANSALDI, JL and ALLASIA,
+   C and VERVLOET, D},
+Title = {EFFECTS OF CASTRATION AND TESTOSTERONE ON FEL-D-I PRODUCTION BY
+   SEBACEOUS GLANDS OF MALE CATS .2. MORPHOMETRIC ASSESSMENT},
+Journal = {REVUE FRANCAISE D ALLERGOLOGIE ET D IMMUNOLOGIE CLINIQUE},
+Year = {1995},
+Volume = {35},
+Number = {4},
+Pages = {364-368},
+Month = {JUN},
+Abstract = {A morphometric study of cat sebaceous glands was performed to evaluate
+   the effects of castration and testosterone treatments. Skin biopsies
+   were taken in six cats before castration, after castration and after the
+   testosterone injections administered after castration (total number of
+   biopsies: 18). Ninety 8 mu m thick sections of each biopsy were assessed
+   for image analysis processing (SAMBA 2005, ALCATEL TITN). The variations
+   in glands and cells size were evaluated on digitized microscopic images
+   by morphometric parameters included in the SAMBA software package. An
+   original software was developed for the analysis of the spacial gland
+   structure. The best morphometric parameters were selected in a first
+   step of the study, and included the nuclear surface (NS), the cell
+   surface (CS) and the nuclear/cellular surface ratio (N/C). These three
+   parameters were then compared in each group of samples for the six cats.
+   It was shown that after castration the N/C (21\%) significantly
+   increased compared with prior to castration (12.6\%). This 59.8\%
+   increase was mainly due to cell cytoplasm shrinking reflecting a
+   decrease of the cell activity. The testosterone administered after
+   castration produced a reverse effect with a N/C ratio back to normal
+   (11.4\%) and a significant cell cytoplasm and gland enlargement as shown
+   by the three dimension constructions. This morphometric data correlated
+   with the measurement of sebum and Fel dI productions. The negative
+   effects of castration and the positive effects of testosterone on the
+   sebaceous cells and glands volume favour the hypothesis that cat
+   sebaceous cells are subject to hormonal control this is also likely to
+   apply to the Fel dI production.},
+DOI = {10.1016/S0335-7457(05)80335-1},
+ISSN = {0335-7457},
+Unique-ID = {WOS:A1995RH78700002},
+}
+
+@article{ WOS:A1995RQ78200006,
+Author = {LIVER, B and ALLEMANG, DT},
+Title = {A FUNCTIONAL REPRESENTATION FOR SOFTWARE REUSE AND DESIGN},
+Journal = {INTERNATIONAL JOURNAL OF SOFTWARE ENGINEERING AND KNOWLEDGE ENGINEERING},
+Year = {1995},
+Volume = {5},
+Number = {2},
+Pages = {227-269},
+Month = {JUN},
+Abstract = {In this paper, we present a framework for maintainable software design,
+   based on a multilevel understanding of software function. This framework
+   is the novel functional representation ZD, in which domain concepts
+   (e.g., employee records) as well as computational concepts (e.g., stacks
+   and queues) are represented in a reusable manner. We use ZD to support
+   the construction of a library of reusable components for novel
+   configurations. In order to achieve this, we provide mechanisms for
+   supporting flexible configurations, address problems of determining the
+   correctness of a combination of library components, and consider the
+   computational complexity of finding combinations. These problems all
+   stem from problems of interactions between components. Therefore, the
+   structure of ZD is focused on representing and handling these
+   interactions. We show how the approach based on ZD resolves certain
+   well-known problems faced by other library-based component reuse
+   architectures.},
+DOI = {10.1142/S0218194095000137},
+ISSN = {0218-1940},
+Unique-ID = {WOS:A1995RQ78200006},
+}
+
+@article{ WOS:A1995QY21100005,
+Author = {SHAW, M and DELINE, R and KLEIN, DV and ROSS, TL and YOUNG, DM and
+   ZELESNIK, G},
+Title = {ABSTRACTIONS FOR SOFTWARE ARCHITECTURE AND TOOLS TO SUPPORT THEM},
+Journal = {IEEE TRANSACTIONS ON SOFTWARE ENGINEERING},
+Year = {1995},
+Volume = {21},
+Number = {4},
+Pages = {314-335},
+Month = {APR},
+Abstract = {Architectures for software use rich abstractions and idioms to describe
+   system components, the nature of interactions among the components, and
+   the patterns that guide the composition of components into systems.
+   These abstractions are higher level than the elements usually supported
+   by programming languages and tools. They capture packaging and
+   interaction issues as well as computational functionality.
+   Well-established (if informal) patterns guide architectural design of
+   systems, We sketch a model for defining architectures and present an
+   implementation of the basic level of that model. Our purpose is to
+   support the abstractions used in practice by software designers. The
+   implementation provides a testbed for experiments with a variety of
+   system construction mechanisms. It distinguishes among different types
+   of components and different ways these components can interact. It
+   supports abstract interactions such as data flow and scheduling on the
+   same footing as simple procedure call. It can express and check
+   appropriate compatibility restrictions and configuration constraints. It
+   accepts existing code as components, incurring no runtime overhead after
+   initialization, It allows easy incorporation of specifications and
+   associated analysis tools developed elsewhere. The implementation
+   provides a base for extending the notation and validating the model.},
+DOI = {10.1109/32.385970},
+ISSN = {0098-5589},
+Unique-ID = {WOS:A1995QY21100005},
+}
+
+@article{ WOS:A1995QM33400003,
+Author = {ALMAGRO, JC and VARGASMADRAZO, E and ZENTENOCUEVAS, R and
+   HERNANDEZMENDIOLA, V and LARAOCHOA, F},
+Title = {VIR - A COMPUTATIONAL TOOL FOR ANALYSIS OF IMMUNOGLOBULIN SEQUENCES},
+Journal = {BIOSYSTEMS},
+Year = {1995},
+Volume = {35},
+Number = {1},
+Pages = {25-32},
+Abstract = {In this paper a microcomputer software named VIR (Variable domains of
+   the Immune Receptors) is reported. This package can be used in sequence
+   studies of immunoglobulin variable domains. The main features of the VIR
+   software in the sequences management are: (1) ease of information
+   recovery/extraction from amino acid sequences; and (2) its capability to
+   obtain multiple sequence alignments with predefined characteristics
+   (i.e. specie and/or specificity). As an analytical tool, the VIR package
+   employs such multiple sequence alignments to compute: (1) tables showing
+   amino acid frequencies; (2) three variability indexes; (3) identity
+   matrices; (4) random samples; and (5) sequences with possible canonical
+   structures. Thus the software reported here is proposed as a useful tool
+   to carry out detailed studies of immunoglobulin variable domains.},
+DOI = {10.1016/0303-2647(94)01479-Q},
+ISSN = {0303-2647},
+EISSN = {1872-8324},
+ResearcherID-Numbers = {ZENTENO-CUEVAS, ROBERTO/A-7152-2012
+   Almagro, Juan/O-2468-2019
+   },
+ORCID-Numbers = {ZENTENO-CUEVAS, ROBERTO/0000-0001-9597-127X
+   Vargas-Madrazo, Enrique/0000-0002-7328-4388
+   Almagro, Juan Carlos/0000-0001-9420-1310},
+Unique-ID = {WOS:A1995QM33400003},
+}
+
+@inproceedings{ WOS:A1995BF02C00002,
+Author = {Benecke, C and Grund, R and Hohberger, R and Kerber, A and Laue, R and
+   Wieland, T},
+Editor = {Cohen, G and Giusti, M and Mora, T},
+Title = {Chemical isomerism, a challenge for algebraic combinatorics and for
+   computer science},
+Booktitle = {APPLIED ALGEBRA, ALGEBRAIC ALGORITHMS AND ERROR-CORRECTING CODES},
+Series = {Lecture Notes in Computer Science},
+Year = {1995},
+Volume = {948},
+Pages = {4-20},
+Note = {11th International Symposium on Applied Algebra, Algebraic Algorithms
+   and Error-Correcting Codes (AAECC-11), PARIS, FRANCE, JUL 07-22, 1995},
+Organization = {Ecole Polytech Palaiseau, Lab GAGE},
+Abstract = {Chemical isomerism means that there do occur different molecules with
+   the some atomic constitutents. For example, about 70 molecules have been
+   found which consist of exactly six carbon and six hydrogen atoms, or, in
+   formal terms, which have the chemical formula C6H6. The existence of
+   chemical isomerism was stated by the end of the eighteenth century, it
+   was verified a quarter of a century later and explained another half of
+   a century afterwards. It stimulated the development of graph theory and
+   gave birth to algebraic combinatorics. It is only now that efficient
+   computers and the helpful methods of computer science can be used in
+   order to solve the basic problem related to chemical isomerism and the
+   corresponding molecular structure elucidation. This problem is the
+   construction of all the molecular graphs which correspond to a given
+   chemical formula and (optional) further conditions on prescribed and
+   forbidden substructures etc.
+   Here we therefore present MOLGEN, a software package which solves this
+   problem in a redundancy free and efficient way. It is designed for
+   research and education, and it finds applications in molecular structure
+   elucidation, where a molecule has to be identified from experimental,
+   usually from spectroscopic data. MOLGEN provides the full wealth of
+   mathematically possible structures (multigraphs with given degree
+   sequence, where the vertices are colored by atom names), from which
+   further chemical tests allow to pick the correct solutions. From the
+   mathematical point of view, MOLGEN is based on the constructive theory
+   of discrete structures, and it clearly shows the success of the
+   combination of algebraic and combinatorial methods for applications in
+   sciences. Moreover, its efficiency is based on a careful use of data
+   structures. MOLGEN is intensively used in chemical industry.},
+ISSN = {0302-9743},
+EISSN = {1611-3349},
+ISBN = {3-540-60114-7},
+Unique-ID = {WOS:A1995BF02C00002},
+}
+
+@article{ WOS:A1994PX60300015,
+Author = {CHARPIN, C and ZIELONKA, TM and CHARPIN, D and ANSALDI, JL and ALLASIA,
+   C and VERVLOET, D},
+Title = {EFFECTS OF CASTRATION AND TESTOSTERONE ON FEL-D-I PRODUCTION BY
+   SEBACEOUS GLANDS OF MALE CATS .2. MORPHOMETRIC ASSESSMENT},
+Journal = {CLINICAL AND EXPERIMENTAL ALLERGY},
+Year = {1994},
+Volume = {24},
+Number = {12},
+Pages = {1174-1178},
+Month = {DEC},
+Abstract = {A morphometric study of cat sebaceous glands was performed to evaluate
+   the effects of castration and testosterone treatments. Skin biopsies
+   were taken in six cats before castration, after castration and after the
+   testosterone injections administered after castration (total number of
+   biopsies: 18). Ninety 8 mu m thick sections of each biopsy were assessed
+   for image analysis processing (SAMBA 2005, ALCATEL TITN). The variations
+   in glands and cells size were evaluated on digitized microscopic images
+   by morphometric parameters included in;the SAMBA software package. An
+   original software was developed for the analysis of the spacial gland
+   structure. The best morphometric parameters were selected in a first
+   step of the study, and included the nuclear surface (NS), the cell
+   surface (CS) and the nuclear/cellular surface ratio (N/C). These three
+   parameters were then compared in each group of samples for the six cats.
+   It was shown that after castration the N/C (21\%) significantly
+   increased compared with prior to castration (12.6\%). This 59.8\%
+   increase was mainly due to cell cytoplasm shrinking reflecting a
+   decrease of the cell activity. The testosterone administered after
+   castration produced a reverse effect with a N/C ratio back to normal
+   (11.4\%) and a significant cell cytoplasm and gland enlargement as shown
+   by the three dimension constructions. This morphometric data correlated
+   with the measurement of sebum and Fel d I productions. The negative
+   effects of castration and the positive effects of testosterone on the
+   sebaceous cells and glands volume favour the hypothesis that cat
+   sebaceous cells are subject to hormonal control this is also likely to
+   apply to the Fel d I production.},
+DOI = {10.1111/j.1365-2222.1994.tb03325.x},
+ISSN = {0954-7894},
+Unique-ID = {WOS:A1994PX60300015},
+}
+
+@article{ WOS:A1994PM42000005,
+Author = {KAPUR, D and NIE, X and MUSSER, DR},
+Title = {AN OVERVIEW OF THE TECTON PROOF SYSTEM},
+Journal = {THEORETICAL COMPUTER SCIENCE},
+Year = {1994},
+Volume = {133},
+Number = {2},
+Pages = {307-339},
+Month = {OCT 24},
+Abstract = {The Tecton proof system is an experimental tool for constructing proofs
+   of first-order logic formulas and of program specifications expressed
+   using formulas in Hoare's axiomatic proof formalism. It is designed to
+   make interactive proof construction easier than with previous proof
+   tools, by maintaining multiple proof attempts internally in a structured
+   form called a proof forest; displaying them in an easy to comprehend
+   form, using a combination of tabular formats, graphical representations,
+   and hypertext links; and automating substantial parts of proofs through
+   rewriting, induction, case analysis, and generalization inference
+   mechanisms, along with a linear arithmetic decision procedure. Further
+   development of the system is planned as part of an overall framework
+   aimed at supporting the kind of abstractions and specializations
+   necessary for building libraries of generic software and hardware
+   components.},
+DOI = {10.1016/0304-3975(94)90192-9},
+ISSN = {0304-3975},
+EISSN = {1879-2294},
+Unique-ID = {WOS:A1994PM42000005},
+}
+
+@article{ WOS:A1994PB35700005,
+Author = {PRATHAP, G and NAGANARAYANA, BP and SOMASHEKAR, BR},
+Title = {DEVELOPMENT OF ROBUST FINITE-ELEMENTS FOR GENERAL-PURPOSE
+   STRUCTURAL-ANALYSIS},
+Journal = {SADHANA-ACADEMY PROCEEDINGS IN ENGINEERING SCIENCES},
+Year = {1994},
+Volume = {19},
+Number = {2},
+Pages = {289-309},
+Month = {APR},
+Abstract = {The finite element method emerged out of the old work and energy methods
+   and matrix structural analysis to become a numerical procedure to solve
+   practical strew analysis problems in solid and structural mechanics.
+   With the impetus given by the rapid development of computer technology,
+   it became the most overwhelmingly popular analysis and design
+   computational tool for a very wide spectrum of engineering science, e.g.
+   fluid mechanics, heat transfer and electro-magnetics. Today, there are
+   very powerful general-purpose software codes that make analyses and
+   design tasks that were once considered to be intractable, routinely
+   simple. Many of these are closely held proprietary codes owned and used
+   in-house by large engineering firms or sold or licensed and supported by
+   specialist companies. (Recent estimates indicate that the market for
+   these codes has a turnover of a billion dollars and that industries and
+   institutions spend several tens of billions of dollars in running such
+   codes.) These codes are rarely given out in source code. In order to
+   have an in-house code that could be continuously up-graded and enhanced,
+   NAL initiated some work to develop a medium-sized general purpose code
+   (about 20,000 lines Of FORTRAN code) for the analysis of laminated
+   composite structures (FEPACS - finite element package for analysis of
+   composite structures), recognising the importance that laminated
+   composites were assuming in aerospace structural technology.
+   Several key elements commonly found in general purpose packages (GPP)
+   used by the aerospace, automobile and mechanical engineering industries
+   were identified. These were re-designed incorporating anisotropic
+   composite capabilities and validated. Many hurdles were faced during
+   this task and required an examination of the basic issues at a
+   paradigmatic level. Concepts such as consistency and variational
+   correctness were introduced and studied critically. These guidelines
+   played a critical role in developing robust versions of the elements and
+   are briefly covered in this review. The paradigms also helped to
+   identify procedures to perform a priori error estimates for the quality
+   of approximation and this allowed the elements being developed to be
+   critically validated.
+   The article concludes with a summary of what has been achieved and also
+   suggests areas where the concepts can be applied fruitfully in the study
+   of the displacement type finite element method.},
+DOI = {10.1007/BF02811900},
+ISSN = {0256-2499},
+ResearcherID-Numbers = {Prathap, Gangan/C-1173-2009
+   Prathap, Gangan/T-4054-2019},
+ORCID-Numbers = {Prathap, Gangan/0000-0003-1472-6358
+   },
+Unique-ID = {WOS:A1994PB35700005},
+}
+
+@article{ WOS:A1994PR42800011,
+Author = {KHAVRYUCHENKO, VD and SHEKA, EF},
+Title = {COMPUTATIONAL MODELING OF AMORPHOUS SILICA .1. MODELING THE STARTING
+   STRUCTURES - A GENERAL CONCEPTION},
+Journal = {JOURNAL OF STRUCTURAL CHEMISTRY},
+Year = {1994},
+Volume = {35},
+Number = {2},
+Pages = {215-223},
+Month = {MAR-APR},
+Abstract = {This paper presents concepts underlying computational modeling of
+   dispersive silicas.  An object for modeling is polyatomic
+   nanometer-sized clusters.  A chemical software package adapted for the
+   PC AT 386(486)/387 is utilized.  A structure-sensitive method of
+   vibration spectroscopy is suggested to verify the results. 
+   Ultradispersive materials are considered to be an adequate object to
+   establish feedback between computational and real experiments.  The
+   program is realized on a set of dispersive silicas; an algorithm for
+   construction of large clusters is proposed, which is based on the
+   concept of radical difference of dispersive silicas.  From analysis of
+   vibration spectra we suggest that aerosils, silica gels, and aerogels
+   should be regarded as amorphous tecto-, cyclo-, and polysilicas,
+   respectively, in line with Liebau's classification of crystal silicates.
+    The category of silica is determined by its production procedure.},
+DOI = {10.1007/BF02578311},
+ISSN = {0022-4766},
+ResearcherID-Numbers = {Sheka, Elena/F-7671-2019},
+ORCID-Numbers = {Sheka, Elena/0000-0003-0308-6260},
+Unique-ID = {WOS:A1994PR42800011},
+}
+
+@article{ WOS:A1994MQ42300035,
+Author = {HUFNAGEL, S and HARBISON, K and SILVA, J and METTALA, E},
+Title = {HEALTH-CARE PROFESSIONAL WORKSTATION - SOFTWARE SYSTEM CONSTRUCTION
+   USING DSSA SCENARIO-BASED ENGINEERING PROCESS},
+Journal = {INTERNATIONAL JOURNAL OF BIO-MEDICAL COMPUTING},
+Year = {1994},
+Volume = {34},
+Number = {1-4},
+Pages = {375-386},
+Month = {JAN},
+Note = {Working Conference on the Health Care Professional Workstation,
+   WASHINGTON, DC, JUN 14-16, 1993},
+Organization = {INT MED INFORMATICS ASSOC},
+Abstract = {This paper describes a new method for the evolutionary determination of
+   user requirements and system specifications called scenario-based
+   engineering process (SEP). Health care professional workstations are
+   critical components of large scale health care system architectures. We
+   suggest that domain-specific software architectures (DSSAs) be used to
+   specify standard interfaces and protocols for reusable software
+   components throughout those architectures, including workstations. We
+   encourage the use of engineering principles and abstraction mechanisms.
+   Engineering principles are flexible guidelines, adaptable to particular
+   situations. Abstraction mechanisms are simplifications for management of
+   complexity. We recommend object-oriented design principles, graphical
+   structural specifications, and formal components' behavioral
+   specifications. We give an ambulatory care scenario and associated
+   models to demonstrate SEP. The scenario uses health care terminology and
+   gives patients' and health care providers' system views. Our goal is to
+   have a threefold benefit. (i) Scenario view abstractions provide
+   consistent interdisciplinary communications. (ii) Hierarchical
+   object-oriented structures provide useful abstractions for reuse,
+   understandability, and long term evolution. (iii) SEP and health care
+   DSSA integration into computer aided software engineering (CASE)
+   environments. These environments should support rapid construction and
+   certification of individualized systems, from reuse libraries.},
+DOI = {10.1016/0020-7101(94)90038-8},
+ISSN = {0020-7101},
+Unique-ID = {WOS:A1994MQ42300035},
+}
+
+@inproceedings{ WOS:A1993BZ88R00033,
+Author = {CHISHTI, FH and RAZAZ, M},
+Editor = {Brebbia, CA and Power, H},
+Title = {A PARALLEL FINITE-ELEMENT SOFTWARE PACKAGE - DESIGN AND IMPLEMENTATION},
+Booktitle = {APPLICATIONS OF SUPERCOMPUTERS IN ENGINEERING III},
+Year = {1993},
+Pages = {463-477},
+Note = {3rd International Conference on Applications of Supercomputers in
+   Engineering, BATH, ENGLAND, SEP 27-29, 1993},
+Organization = {WESSEX INST TECHNOL},
+ISBN = {1-85312-236-X},
+Unique-ID = {WOS:A1993BZ88R00033},
+}
+
+@article{ WOS:A1992KB62000019,
+Author = {EBERHARDT, NL},
+Title = {A SHELL PROGRAM FOR THE DESIGN OF PCR PRIMERS USING GENETICS COMPUTER
+   GROUP (GCG) SOFTWARE (7.1) ON VAX/VMST(TM) SYSTEMS},
+Journal = {BIOTECHNIQUES},
+Year = {1992},
+Volume = {13},
+Number = {6},
+Pages = {914-917},
+Month = {DEC},
+Abstract = {A number of software analysis packages for the design of PCR printers
+   are available for PCs; however, software for users that depend on
+   VAX/VMS(TM) operating systems is not available. By treating
+   oligonucleotides as RNA molecules, I have designed an alternative means
+   toward studying oligonucleotide interactions using software that is
+   currently available from The Genetics Computer Group (GCG, Madison, WI).
+   The oligonucleotide interactions with self and non-self are analyzed by
+   the GCG FOLD program, a program which finds a secondary structure of
+   minimum free energy for an RNA molecule. This approach allows the
+   identification of self-priming primer pairs, and the interaction
+   energies provide a guideline for the prediction of optimal PCR primers.},
+ISSN = {0736-6205},
+Unique-ID = {WOS:A1992KB62000019},
+}
+
+@article{ WOS:A1992JC79300002,
+Author = {INGWERSEN, P and WORMELL, I},
+Title = {RANGANATHAN IN THE PERSPECTIVE OF ADVANCED INFORMATION-RETRIEVAL},
+Journal = {LIBRI},
+Year = {1992},
+Volume = {42},
+Number = {3},
+Pages = {184-201},
+Month = {JUL-SEP},
+Abstract = {Examines Ranganathan's approach to knowledge organization and its
+   relevance to ``intellectual accessibility{''} in libraries. Discusses
+   the current and future developments of his methodology and theories in
+   knowledge-based systems. Topics covered include: semi-automatic
+   classification and structure of thesauri; user-intermediary interactions
+   in information retrieval (IR); semantic value-theory and uncertainty
+   principles in IR; and case grammar. Elaborates on the usefulness and
+   applications of analytico-synthetic methodology in designing
+   classification schemes, thesaurus construction, query negotiation,
+   structuring of search expressions, etc. Close parallel is recognizable
+   between Ranganathan's principles and case-frame theory, for example in
+   techniques of IR, contextual IR theory building and software reuse
+   systems. Concludes that though Ranganathan's criterion of helpful
+   sequence and other aspects of his methodology may have limitations when
+   applied to areas other than subject classification, his principles for
+   knowledge organization and faceted methodology are likely to find
+   applications in cognitive modelling, neural network techniques and
+   pattern recognition.},
+DOI = {10.1515/libr.1992.42.3.184},
+ISSN = {0024-2667},
+Unique-ID = {WOS:A1992JC79300002},
+}
+
+@article{ WOS:A1992JR07700006,
+Author = {AIVAZOV, SR and VERMEL, VD and ZORIN, VN},
+Title = {COMPUTER-GRAPHICS FOR ANALYSIS OF MODIFICATIONS OF AERODYNAMIC SURFACES},
+Journal = {PROGRAMMING AND COMPUTER SOFTWARE},
+Year = {1992},
+Volume = {18},
+Number = {2},
+Pages = {87-93},
+Month = {MAR-APR},
+Abstract = {This article considers a software package for modelling aircraft
+   surfaces. The package supports description of complex surfaces,
+   interactive modification of surfaces, and display of surfaces on color
+   displays. The numerical model constructed for a surface and an
+   interpolation module are used by aerodynamic-computation programs
+   developed for various computers. The results of computations are
+   returned to software for mathematical modelling of surfaces and
+   construction of the pressure and flow velocities on the surface. When
+   the package is used by distributed technical facilities and different
+   teams, it ensures a common data structure and facility for interactive
+   operation.},
+ISSN = {0361-7688},
+Unique-ID = {WOS:A1992JR07700006},
+}
+
+@article{ WOS:A1991FX70100006,
+Author = {GORDON, KJ and GORDON, RF and KUROSE, JF and MACNAIR, EA},
+Title = {AN EXTENSIBLE VISUAL ENVIRONMENT FOR CONSTRUCTION AND ANALYSIS OF
+   HIERARCHICALLY-STRUCTURED MODELS OF RESOURCE CONTENTION SYSTEMS},
+Journal = {MANAGEMENT SCIENCE},
+Year = {1991},
+Volume = {37},
+Number = {6},
+Pages = {714-732},
+Month = {JUN},
+Abstract = {The development of models for evaluating the performance of resource
+   contention systems, such as manufacturing systems, computer systems, and
+   communication networks, is often a difficult and complex task.  This
+   modeling effort can be dramatically reduced by the use of appropriate
+   software tools.  The Research Queueing Package Modeling Environment
+   (RESQME) provides a graphical environment for constructing, solving, and
+   analyzing the results of extended queueing network models of resource
+   contention systems.  It supports a rich underlying modeling paradigm
+   previously developed in the Research Queueing Package (RESQ) and
+   provides a single integrated graphical interface throughout all tasks of
+   the modeling lifecycle.  In this paper we present a brief overview of
+   RESQME and then focus on two of its most important features:  the
+   construction and analysis of hierarchically-structured models and the
+   ability to extend and customize the RESQME environment for
+   domain-specific modeling via the use of user-defined modeling elements. 
+   A manufacturing model is developed in order to illustrate these
+   capabilities.},
+DOI = {10.1287/mnsc.37.6.714},
+ISSN = {0025-1909},
+Unique-ID = {WOS:A1991FX70100006},
+}
+
+@article{ WOS:A1991EW02300005,
+Author = {RAO, M and LUXHOJ, JT},
+Title = {INTEGRATION FRAMEWORK FOR INTELLIGENT MANUFACTURING PROCESSES},
+Journal = {JOURNAL OF INTELLIGENT MANUFACTURING},
+Year = {1991},
+Volume = {2},
+Number = {1},
+Pages = {43-52},
+Month = {FEB},
+Abstract = {In this article, we describe a new approach to applying distributed
+   artificial intelligence techniques to manufacturing processes.  The
+   construction of intelligent systems is one of the most important
+   techniques among artificial intelligence research.  Our goal is to
+   develop an integrated intelligent system for real time manufacturing
+   processes.  An integrated intelligent system is a large knowledge
+   integration environment that consists of several symbolic reasoning
+   systems (expert systems) and numerical computation packages.  These
+   software programs are controlled by a meta-system which manages the
+   selection, operation and communication of these programs.  A meta-system
+   can be implemented in different language environments and applied to
+   many disciplines.  This new architecture can serve as a universal
+   configuration to develop high performance intelligent systems for many
+   complicated industrial applications in real world domains.},
+DOI = {10.1007/BF01471335},
+ISSN = {0956-5515},
+Unique-ID = {WOS:A1991EW02300005},
+}
+
+@article{ WOS:A1991GQ74800020,
+Author = {ADELI, H and HAWKINS, DW},
+Title = {A HIERARCHICAL EXPERT SYSTEM FOR DESIGN OF FLOORS IN HIGHRISE BUILDINGS},
+Journal = {COMPUTERS \& STRUCTURES},
+Year = {1991},
+Volume = {41},
+Number = {4},
+Pages = {773-788},
+Abstract = {A prototype knowledge-based expert system, called COFDEX (for COmposite
+   Floor Design EXpert), has been developed for integrated design of
+   composite floors in multistory buildings in accordance with the 1986
+   American Institute of Steel Construction (AISC) Load and Resistance
+   Factor Design (LRFD) Specification. Design options include design for
+   practical minimum cost or for minimum depth. Developed in the expert
+   system programming environment GURU, COFDEX is a coupled system with a
+   hierarchical structure in which procedural modules interact with rule
+   sets and data bases. The expert system COFDEX demonstrates how AI
+   technology complements the traditional numerical processing in
+   automating the complicated process of engineering design and developing
+   highly interactive software packages.},
+DOI = {10.1016/0045-7949(91)90187-Q},
+ISSN = {0045-7949},
+ResearcherID-Numbers = {adeli, hojjat/D-1430-2010},
+ORCID-Numbers = {adeli, hojjat/0000-0001-5718-1453},
+Unique-ID = {WOS:A1991GQ74800020},
+}
+
+@article{ WOS:A1990EU55500029,
+Author = {FAULON, JL and VANDENBROUCKE, M and DRAPPIER, JM and BEHAR, F and
+   ROMERO, M},
+Title = {3D CHEMICAL-MODEL FOR GEOLOGICAL MACROMOLECULES},
+Journal = {ORGANIC GEOCHEMISTRY},
+Year = {1990},
+Volume = {16},
+Number = {4-6},
+Pages = {981-\&},
+Note = {14TH INTERNATIONAL MEETING ON ORGANIC GEOCHEMISTRY : ADVANCES IN ORGANIC
+   GEOCHEMISTRY, PARIS, FRANCE, SEP 18-22, 1989},
+Abstract = {This study defines a chemical representation of the kerogen
+   macromolecule based on data from physicochemical analyses.  The model
+   should permit:
+   -creation of various schematic drawings representing an average
+   macromolecule;
+   -future integration of new analytical results (for instance on
+   structures of biomarkers or biopolymers); and
+   -determination of the distribution of chemical bonds.
+   The models developed in this study can be represented in a 3D space,
+   using classical chemical symbols, in the form of cyclic groups linked to
+   each other by aliphatic chains.  One cyclic group is a connected set of
+   aromatic, naphthenoaromatic or naphthenic rings.  These cyclic groups
+   are constructed using basic elements such as atoms and bonds defined by
+   their length and direction.
+   Modeling of kerogen is done in three successive steps.  A library is
+   first created to define atoms, bonds and cyclic groups.  Secondly,
+   starting from a set of equations describing the analytical results,
+   cyclic and aliphatic groups are chosen in the appropriate stoechiometric
+   amount to match the analytical data.  Finally the construction is done: 
+   cyclic groups are placed randomly in a 3D space, connections are made by
+   aliphatic chains, and functional groups are added.
+   The molecular modeling software Xmol(TM) can be operated on APOLLO
+   stations.  It allows the creation of libraries, the calculation of
+   chemical bonds corresponding to the analyses and the construction of
+   macromolecules.  An example is given for a type III kerogen at the
+   beginning of diagenesis.},
+DOI = {10.1016/0146-6380(90)90134-L},
+ISSN = {0146-6380},
+ORCID-Numbers = {Faulon, Jean-Loup/0000-0003-4274-2953},
+Unique-ID = {WOS:A1990EU55500029},
+}
+
+@article{ WOS:000208419000013,
+Author = {Mohr, Carl G. and Miller, L. Jay and Vaughan, Robin L. and Frank, Harold
+   W.},
+Title = {The Merger of Mesoscale Datasets into a Common Cartesian Format for
+   Efficient and Systematic Analyses},
+Journal = {JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY},
+Year = {1986},
+Volume = {3},
+Number = {1},
+Pages = {143-161},
+Month = {MAR},
+Abstract = {During the 1981 summer season within a 70 000 km(2) area surrounding
+   Miles City, Montana, researchers from approximately twenty institutions
+   participated in the Cooperative Convective Precipitation Experiment
+   (CCOPE). The measurements collected during this project comprise one of
+   the most comprehensive datasets ever acquired in and around individual
+   convective storms on the high plains of North America. Principal data
+   systems utilized during CCOPE included 8 ground-based radars (7 of which
+   had Doppler capability), 12 instrumented research aircraft, and a
+   network of 123 surface stations.
+   A major data processing goal has been to combine these independently
+   acquired mesoscale measurements into a numerical description of observed
+   atmospheric conditions at any point in time. Using the CCOPE data
+   archive as an example, this paper describes the procedures used to
+   reduce these high resolution observations to a common spatial and
+   temporal framework. The final product is a digital description of the
+   environment similar to that employed by most modelers-a
+   three-dimensional Cartesian coordinate system containing fields that
+   represent the instantaneous state of the atmosphere at discrete times
+   across the period of interest. A software package designed to facilitate
+   the construction and analysis of these composite data structures will
+   also be discussed.},
+DOI = {10.1175/1520-0426(1986)003<0143:TMOMDI>2.0.CO;2},
+ISSN = {0739-0572},
+Unique-ID = {WOS:000208419000013},
+}
+
+@article{ WOS:A1986AXS0100001,
+Author = {YEN, RF and KIM, Y},
+Title = {DEVELOPMENT AND IMPLEMENTATION OF AN EDUCATIONAL SIMULATOR SOFTWARE
+   PACKAGE FOR A SPECIFIC MICROPROGRAMMING ARCHITECTURE},
+Journal = {IEEE TRANSACTIONS ON EDUCATION},
+Year = {1986},
+Volume = {29},
+Number = {1},
+Pages = {1-11},
+Month = {FEB},
+DOI = {10.1109/TE.1986.5570674},
+ISSN = {0018-9359},
+Unique-ID = {WOS:A1986AXS0100001},
+}
+
+@article{ WOS:A1983RG69700003,
+Author = {TAMURA, H and SAKANE, S and TOMITA, F and YOKOYA, N and KANEKO, M and
+   SAKAUE, K},
+Title = {DESIGN AND IMPLEMENTATION OF SPIDER - A TRANSPORTABLE IMAGE-PROCESSING
+   SOFTWARE PACKAGE},
+Journal = {COMPUTER VISION GRAPHICS AND IMAGE PROCESSING},
+Year = {1983},
+Volume = {23},
+Number = {3},
+Pages = {273-294},
+DOI = {10.1016/0734-189X(83)90027-0},
+ISSN = {0734-189X},
+Unique-ID = {WOS:A1983RG69700003},
+}
